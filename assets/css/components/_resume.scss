@@ -5,6 +5,8 @@
 .resume {
   position: relative;
 
+// Resume header
+// -----------------------------------------------------------------------------
   &__header {
     position: relative;
 
@@ -27,6 +29,8 @@
     }
   }
 
+// Resume item
+// -----------------------------------------------------------------------------
   &__item {
     clear: both;
     padding-bottom: $margin-standard--xs;
@@ -47,17 +51,23 @@
       padding-top: $margin-standard--lg;
     }
 
+// Resume item border
+// -----------------------------------------------------------------------------
     &:before,
     &:last-child:after {
-      content: '';
       position: absolute;
-      background: $border-color--standard;
-      height: 1px;
-      display: block;
-      right: 0;
       left: 0;
+      right: 0;
+
+      display: block;
+      height: 1px;
+
+      background: $border-color--standard;
+      content: '';
     }
 
+// Resume item border margin
+// -----------------------------------------------------------------------------
     &:before {
       margin-top: -$margin-standard--xs;
 
@@ -74,6 +84,8 @@
       }
     }
 
+// Last resume item border margin
+// -----------------------------------------------------------------------------
     &:last-child:after {
       margin-top: $margin-standard--xs;
 
@@ -91,6 +103,8 @@
     }
   }
 
+// Resume link
+// -----------------------------------------------------------------------------
   &__link {
 
     @media (min-width: $breakpoint--sm) {
@@ -108,6 +122,8 @@
     }
   }
 
+// Resume date
+// -----------------------------------------------------------------------------
   &__date {
     @media (min-width: $breakpoint--md) {
       position: absolute;
@@ -121,6 +137,8 @@
     }
   }
 
+// Resume title
+// -----------------------------------------------------------------------------
   &__title {
     @media (min-width: $breakpoint--md) {
       margin-top: 0;

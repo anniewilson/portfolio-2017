@@ -10,9 +10,10 @@
   }
 
   @media (min-width: $breakpoint--sm) {
-    height: 100px;
-    display: flex;
     align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
   }
 
   @media (min-width: $breakpoint--md) {
@@ -23,21 +24,25 @@
     z-index: $z-index--header;
   }
 
+// Header home link
+// -----------------------------------------------------------------------------
   &__home-link {
     @media (min-width: $breakpoint--sm) {
       flex: 0 0 200px;
     }
   }
 
+// Header nav
+// -----------------------------------------------------------------------------
   &__nav {
     border-bottom: 1px solid $border-color--standard;
     padding-top: 12px;
 
     @media (min-width: $breakpoint--sm) {
-      padding-top: 0;
       border: none;
       margin-left: 0;
-      flex: 1 1 80%;
+      padding-top: 0;
+
       text-align: right;
     }
   }

@@ -1,32 +1,39 @@
 // =============================================================================
 // SIGN UP COMPONENT
 // =============================================================================
+// @todo: add this component from holding page to broccoliwilson.com
+// -----------------------------------------------------------------------------
 
 .sign-up {
 
   @media (min-width: $breakpoint--sm) {
-    margin-top: $margin-standard--sm;
-    margin-left: -$margin-standard--sm;
     display: flex;
     justify-content: space-between;
+    margin-left: -$margin-standard--sm;
+    margin-top: $margin-standard--sm;
   }
 
+// All elements inside signup component
+// -----------------------------------------------------------------------------
   * {
     margin-top: $margin-standard--xs;
     width: 100%;
+
     text-align: left;
 
     @media (min-width: $breakpoint--sm) {
-      margin-top: 0;
       flex: 1 1 (2/5 * 100%);
       margin-left: $margin-standard--sm;
+      margin-top: 0;
     }
   }
 
+// Button
+// -----------------------------------------------------------------------------
   button {
     @media (min-width: $breakpoint--sm) {
-      white-space: nowrap;
       flex: 1 1 (1/5 * 100%);
+      white-space: nowrap;
     }
   }
 }

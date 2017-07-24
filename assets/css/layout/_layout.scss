@@ -1,11 +1,11 @@
 // =============================================================================
-// LAYOUT
+// MAIN LAYOUT
 // =============================================================================
 
 .main {
+  overflow-x: hidden;
   padding-bottom: $margin-standard--xs * 2;
   padding-top: 20px;
-  overflow-x: hidden;
 
   @media (min-width: $breakpoint--sm) {
     padding-bottom: $margin-standard--sm * 2;
@@ -22,6 +22,8 @@
     padding-top: 220px;
   }
 
+// Holding page specific
+// -----------------------------------------------------------------------------
   &--holding {
     padding-top: $margin-standard--xs * 2;
 
@@ -30,9 +32,9 @@
     }
 
     @media (min-width: $breakpoint--md) {
+      align-items: center;
       display: flex;
       min-height: 100vh;
-      align-items: center;
       padding-top: $margin-standard--md * 2;
     }
 
@@ -41,6 +43,8 @@
     }
   }
 
+// Main layout header and content sections
+// -----------------------------------------------------------------------------
   &__header,
   &__content {
     padding-bottom: $margin-standard--xs;
@@ -58,6 +62,8 @@
     }
   }
 
+// Main layout content section
+// -----------------------------------------------------------------------------
   &__content {
     padding-top: $margin-standard--xs;
 

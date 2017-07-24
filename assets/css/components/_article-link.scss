@@ -11,15 +11,15 @@
     margin: 48px 0;
   }
 
+// Article thumbnail
+// -----------------------------------------------------------------------------
   &__thumb {
+    border: 1px solid $border-color--standard;
     display: block;
-    flex: 0 0 100%;
-    margin-right: 24px;
-    width: 100%;
     flex: 0 0 80px;
     height: 80px;
+    margin-right: 24px;
     width: 80px;
-    border: 1px solid $border-color--standard;
 
     @media (min-width: $breakpoint--xs) {
       flex: 0 0 120px;
@@ -44,36 +44,42 @@
     }
   }
 
+// Article content detail
+// -----------------------------------------------------------------------------
   &__content {
-    // margin-top: 16px;
-
     @media (min-width: $breakpoint--sm) {
       display: flex;
       flex-direction: column;
-      // margin-top: 0;
     }
   }
 
+// Article description
+// -----------------------------------------------------------------------------
   &__description {
+    display: none; // Hide on small screens
     flex: 1 1 100%;
-    display: none;
+
     @media (min-width: $breakpoint--sm) {
       display: block;
     }
   }
 
+// Article call to action
+// -----------------------------------------------------------------------------
   &__cta {
+    border-bottom: 2px solid $link-color;
     display: inline;
     transition:
       color 300ms ease,
       border 300ms ease;
-    border-bottom: 2px solid $link-color;
 
     @media (min-width: $breakpoint--sm) {
-      flex: 0 0 16px;
       align-self: flex-start;
+      flex: 0 0 16px;
     }
 
+// Case study specific link color
+// -----------------------------------------------------------------------------
     @each $color-name, $color-value in $project-colors {
       .case-study--#{$color-name} & {
         border-color: $color-value;
@@ -81,6 +87,8 @@
     }
   }
 
+// Hovering over a case study tile chances the link color
+// -----------------------------------------------------------------------------
   .case-study &:hover,
   .case-study &:active,
   .case-study &:focus {

@@ -2,10 +2,14 @@
 // BREAKPOINTS
 // =============================================================================
 
+// Standard breakpoints
+// -----------------------------------------------------------------------------
 $breakpoint--xs: 400px;
 $breakpoint--sm: 640px;
 $breakpoint--md: 840px;
 $breakpoint--lg: 1040px;
 
+// Specific breakpoints
+// -----------------------------------------------------------------------------
 $breakpoint--product-header: 800px;
 $breakpoint--home-header: 740px;

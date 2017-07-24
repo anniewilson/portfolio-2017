@@ -4,7 +4,7 @@
 
 .case-study {
 
-// Case study specific color
+// Case study specific color title
 // -----------------------------------------------------------------------------
   @each $color-name, $color-value in $project-colors {
     &--#{$color-name} {
@@ -29,6 +29,8 @@
     }
   }
 
+// Content block preceding a header
+// -----------------------------------------------------------------------------
   &__header + &__content {
 
     .main__content {
@@ -37,15 +39,18 @@
       }
     }
 
+// Pseudo element creates a border top
+// -----------------------------------------------------------------------------
     &:before {
 
       @media (min-width: $breakpoint--md) {
-        content: '';
         clear: both;
-        height: 1px;
-        background: $border-color--standard;
         display: block;
+        height: 1px;
         margin-left: $margin-standard--md;
+        
+        background: $border-color--standard;
+        content: '';
       }
 
       @media (min-width: $breakpoint--lg) {
@@ -59,29 +64,16 @@
   &__content {
     position: relative;
     z-index: 10;
+
     background: #fff;
-
-    // h3 {
-    //   @media (min-width: $breakpoint--md) {
-    //     position: absolute;
-    //     left: $margin-standard--md;
-
-    //     line-height: 30.4px;
-    //     margin-top: 16px;
-    //   }
-
-    //   @media (min-width: $breakpoint--lg) {
-    //     left: $margin-standard--xl;
-    //   }
-    // }
   }
 
 // Case study banner
 // -----------------------------------------------------------------------------
   &__banner {
-    width: 100vw;
     margin-left: -$margin-standard--sm;
     margin-top: $margin-standard--sm;
+    width: 100vw;
 
     @media (min-width: $breakpoint--xs) {
       margin-left: -$margin-standard--md;
@@ -105,6 +97,8 @@
     }
   }
 
+// Case study title
+// -----------------------------------------------------------------------------
   &__title {
     @media (min-width: $breakpoint--md) {
       padding-top: 100px;
@@ -117,26 +111,32 @@
     }
   }
 
+// Case study images
+// -----------------------------------------------------------------------------
   &__img-inline,
   &__img-full {
-    margin-top: $margin-standard--md;
     margin-bottom: $margin-standard--md;
+    margin-top: $margin-standard--md;
 
     @media (min-width: $breakpoint--md) {
-      margin-top: $margin-standard--lg;
       margin-bottom: $margin-standard--lg;
+      margin-top: $margin-standard--lg;
     }
 
     @media (min-width: $breakpoint--lg) {
-      margin-top: $margin-standard--xl;
       margin-bottom: $margin-standard--xl;
+      margin-top: $margin-standard--xl;
     }
 
+// Case study images border option
+// -----------------------------------------------------------------------------
     &--border {
       border: 1px solid $border-color--standard;
     }
   }
 
+// Case study images width reset
+// -----------------------------------------------------------------------------
   &__img-full,
   &__img-full img,
   &__img-inline,
@@ -144,18 +144,24 @@
     width: 100%;
   }
 
+// Full sized case study images
+// -----------------------------------------------------------------------------
+// As these images sit in a narrow column the image needs a negative margin
+// to push it outside of the column and align it with the far left of the
+// wrapper. This is calculated based on a 6 column grid.
+// -----------------------------------------------------------------------------
   &__img-full {
     $gutter-md: $margin-standard--md * 3;
     $gutter-lg: $margin-standard--xl * 3;
 
     @media (min-width: $breakpoint--md) {
-      width: calc((100% - #{$gutter-md}) / 4 * 6 + #{$margin-standard--md} * 5);
       margin-left: calc((-100% - #{$gutter-md}) / 2 + #{$margin-standard--md});
+      width: calc((100% - #{$gutter-md}) / 4 * 6 + #{$margin-standard--md} * 5);
     }
 
     @media (min-width: $breakpoint--lg) {
-      width: calc((100% - #{$gutter-lg}) / 4 * 6 + #{$margin-standard--xl} * 5);
       margin-left: calc((-100% - #{$gutter-lg}) / 2 + #{$margin-standard--xl});
+      width: calc((100% - #{$gutter-lg}) / 4 * 6 + #{$margin-standard--xl} * 5);
     }
   }
 }

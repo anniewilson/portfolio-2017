@@ -2,6 +2,8 @@
 // BASE TYPOGRAPHY
 // =============================================================================
 
+// Body Typography Styles
+// -----------------------------------------------------------------------------
 body {
   color: $text-color--standard;
   font-family: $font-family--standard;
@@ -31,10 +33,14 @@ h6 {
   margin-bottom: 0;
   margin-top: 32px;
 
+// Reset margin on first child
+// -----------------------------------------------------------------------------
   &:first-child {
     margin-top: 0;
   }
-
+  
+// Headers preceding another header creates a shorter margin
+// -----------------------------------------------------------------------------
   + h1,
   + h2,
   + h3,
@@ -45,11 +51,11 @@ h6 {
   }
 }
 
-// Header 1 Styles
+// H1 Styles
 // -----------------------------------------------------------------------------
 h1 {
-  font-family: $font-family--primary-heading;
   color: $brand-color--red;
+  font-family: $font-family--primary-heading;
   font-size: 40px;
   line-height: 1.1;
   transition: all 400ms ease 300ms;
@@ -73,7 +79,8 @@ h1 {
   }
 }
 
-
+// H2 - H6 Styles
+// -----------------------------------------------------------------------------
 h2,
 h3,
 h4,
@@ -97,8 +104,8 @@ h2 {
 }
 
 h3 {
-  font-weight: normal;
   font-size: 26px;
+  font-weight: normal;
 }
 
 h4 {
@@ -128,9 +135,11 @@ h6 {
 // Paragraph Styles
 // -----------------------------------------------------------------------------
 p {
-  margin-top: 16px;
   margin-bottom: 0;
+  margin-top: 16px;
 
+// Large paragraph - used for intros
+// -----------------------------------------------------------------------------
   &.large {
     font-size: 22px;
     letter-spacing: -0.5px;
@@ -150,6 +159,8 @@ p {
   }
 }
 
+// Misc paragraph styles
+// -----------------------------------------------------------------------------
 sup {
   top: -.45em;
 }

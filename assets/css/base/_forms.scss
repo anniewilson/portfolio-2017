@@ -2,7 +2,7 @@
 // BASE FORM ELEMENTS
 // =============================================================================
 
-// Text style form inputs
+// Text form inputs rest
 // -----------------------------------------------------------------------------
 input[type="email"],
 input[type="number"],
@@ -12,14 +12,16 @@ textarea {
   -webkit-appearance: none;
 }
 
+// Text form inputs style
+// -----------------------------------------------------------------------------
 input[type="email"],
 input[type="number"],
 input[type="search"],
 input[type="text"],
 select,
 textarea {
-  border-radius: 0 !important;
   border: 0 solid $border-color--standard;
+  border-radius: 0 !important;
   border-bottom-width: 1px;
   padding: 6px 10px;
   
@@ -36,24 +38,26 @@ textarea {
     font-size: 19px;
   }
 
+// Input hover styles
+// -----------------------------------------------------------------------------
   &:active,
   &:focus,
   &:hover {
-    background: $color-grey--4;
     border-color: $color-grey--60;
+
+    background: $color-grey--4;
   }
 }
 
 // Fieldset reset
 // -----------------------------------------------------------------------------
 fieldset {
+  border: 0;
   margin: 0;
   padding: 0;
-
-  border: 0;
 }
 
-// Form legends hidden but available for screen reader purpose
+// Form legends hidden but available for screen reader purposes
 // -----------------------------------------------------------------------------
 legend {
   @include hidden;

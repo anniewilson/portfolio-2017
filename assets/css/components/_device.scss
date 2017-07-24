@@ -1,69 +1,95 @@
 // =============================================================================
-// DEVICE COMPONENT
+// DEVICE COMPONENTS
 // =============================================================================
 
 // iPhone device wrapper
 // -----------------------------------------------------------------------------
 .device-iphone {
-  border: 1px solid $border-color--standard;
-  padding: 22% 5%;
-  border-radius: 14.5349%/7.1429%;
   position: relative;
 
+  border: 1px solid $border-color--standard;
+  // Scalable border radius based on dimensions of iPhone template
+  border-radius: 14.5349%/7.1429%;
+  padding: 22% 5%;
+
+// iPhone inner image
+// -----------------------------------------------------------------------------
   img {
     width: 100%;
     border: 1px solid $border-color--standard;
   }
 
+// Home button pseudo element
+// -----------------------------------------------------------------------------
   &:after {
+    // Scalable button height & width based on dimensions of iPhone template
+    $button-height: 7.1429%;
+    $button-width: 14.5349%;
+
+    position: absolute;
     bottom: 1.9%;
     left: 50%;
-    border: 1px solid $border-color--standard;
+
     border-radius: 50%;
-    content: '';
-    width: 14.5349%;
-    margin-left: -(14.5349% / 2);
-    height: 7.1429%;
+    border: 1px solid $border-color--standard;
     display: block;
-    position: absolute;
+    height: $button-height;
+    margin-left: -($button-width / 2);
+    width: $button-width;
+
+    content: '';
   }
 
+// Speaker pseudo element
+// -----------------------------------------------------------------------------
   &:before {
-    top: 4%;
-    left: 50%;
-    border: 1px solid $border-color--standard;
-    border-radius: 14.0543%/50%;
-    content: '';
-    width: 14.5349%;
-    margin-left: -(14.5349% / 2);
-    height: 2%;
-    display: block;
+    // Scalable speaker height & width based on dimensions of iPhone template
+    $speaker-height: 2%;
+    $speaker-width: 14.5349%;
+
     position: absolute;
+    left: 50%;
+    top: 4%;
+
+    border-radius: 14.0543%/50%;
+    border: 1px solid $border-color--standard;
+    display: block;
+    height: $speaker-height;
+    margin-left: -($speaker-width / 2);
+    width: $speaker-width;
+
+    content: '';
   }
 }
 
 // Desktop browser device wrapper
 // -----------------------------------------------------------------------------
 .device-desktop {
-  background: $border-color--standard;
+  position: relative;
+
   border: 1px solid $border-color--standard;
   border-radius: 4px;
   padding-top: 8px;
-  position: relative;
+
+  background: $border-color--standard;
 
   @media (min-width: $breakpoint--sm) {
-    padding-top: 16px;
     border-radius: 6px;
+    padding-top: 16px;
   }
 
   @media (min-width: $breakpoint--md) {
     padding-top: 24px;
   }
 
+// Browser inner image
+// -----------------------------------------------------------------------------
   img {
     width: 100%;
   }
 
+// Browser small version - for inside small grids
+// -----------------------------------------------------------------------------
   &--sm {
     border-radius: 2px;
     padding-top: 6px;

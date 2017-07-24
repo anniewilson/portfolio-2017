@@ -3,19 +3,24 @@
 // =============================================================================
 
 a {
+  border-bottom: 2px solid $link-color;
+  
   color: $text-color--standard;
   text-decoration: none;
   transition:
     color 300ms ease,
     border 300ms ease;
-  border-bottom: 2px solid $link-color;
 
+// Link hover styles
+// -----------------------------------------------------------------------------
   &:hover,
   &:active,
   &:focus {
     border-color: $link-color--hover;
   }
 
+// Specific link color for case studies
+// -----------------------------------------------------------------------------
   @each $color-name, $color-value in $project-colors {
     .case-study--#{$color-name} & {
       border-color: $color-value;

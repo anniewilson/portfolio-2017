@@ -9,10 +9,14 @@
   @include hidden;
 }
 
+// Elements to be completely hidden
+// ----------------------------------------------------------------------------- 
 .hidden {
   display: none;
 }
 
+// Generic pull-right class
+// ----------------------------------------------------------------------------- 
 .right {
   float: right;
 }

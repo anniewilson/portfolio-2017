@@ -1,36 +1,46 @@
 // =============================================================================
-// BASE LINKS
+// BASE ICONS
 // =============================================================================
 
 .icon {
   display: inline-block;
   height: 16px;
   width: 16px;
+  vertical-align: middle;
+  
   fill: none;
   stroke: $text-color--standard;
   stroke-width: 1px;
-  vertical-align: middle;
 
+// Arrow right icon
+// -----------------------------------------------------------------------------
   &--arrow-right {
     height: 8px;
   }
 
+// Arrow right bent icon
+// -----------------------------------------------------------------------------
   &--arrow-right-bent {
     height: 12px;
-    width: 16px;
     margin-bottom: 8px;
     margin-right: 12px;
+    width: 16px;
+
     stroke: $text-color--subdued;
   }
 
+// Arrow up icon
+// -----------------------------------------------------------------------------
   &--arrow-up {
-    width: 32px;
     height: 32px;
+    width: 32px;
+
     stroke-width: 1.5px;
     
     @media (min-width: $breakpoint--lg) {
-      width: 31px;
       height: 50px;
+      width: 31px;
+
       stroke-width: 1px;
     }
   }

@@ -2,11 +2,12 @@
 // FONT STACKS
 // =============================================================================
 
+// Standard font stack
+// -----------------------------------------------------------------------------
 $font-family--standard:
   'Founders Grotesk Text', 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
 
+// Heading font stack
+// -----------------------------------------------------------------------------
 $font-family--primary-heading:
   'Founders Grotesk', 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
-
-$font-family--monospace:
-  'Roboto Mono', monospace;

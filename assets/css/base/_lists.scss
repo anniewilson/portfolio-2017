@@ -8,6 +8,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -18,13 +19,17 @@ li {
 // Content area list styles
 // -----------------------------------------------------------------------------
   .content-area & {
-    margin-top: 16px;
     margin-bottom: 0;
+    margin-top: 16px;
 
+// When an li precedes an li the margin top is shorter
+// -----------------------------------------------------------------------------
     + li {
       margin-top: 8px;
     }
 
+// Li list style custom disc
+// -----------------------------------------------------------------------------
     &:before {
       content: "";
 
@@ -43,24 +48,15 @@ li {
 
 // Definition list styles
 // -----------------------------------------------------------------------------
-dl {
-  // font-family: $font-family--monospace;
-  // font-weight: normal;
-  // font-size: 14px;
 
-  // @media (min-width: $breakpoint--lg) {
-  //   font-size: 15px;
-  // }
-}
-
-// Definition term and description
+// Definition term and description reset
 // -----------------------------------------------------------------------------
 dt,
 dd {
   margin: 0;
 }
 
-// Definition term proceding a definition description
+// Definition term preceding a definition description
 // -----------------------------------------------------------------------------
 dd + dt {
   margin-top: 16px;

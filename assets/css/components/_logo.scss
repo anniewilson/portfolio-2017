@@ -6,25 +6,32 @@
   border: none;
   display: block;
   vertical-align: middle;
+
   line-height: 32px;
 
+// Logo svg
+// -----------------------------------------------------------------------------
   &__svg {
     float: left;
     height: 32px;
     margin-right: 16px;
-    stroke: none;
     vertical-align: middle;
     width: 32px;
     
-    pointer-events: none;
     fill: #FF4B38;
+    pointer-events: none;
+    stroke: none;
     transition: all 400ms ease 300ms;
 
     @media (min-width: $breakpoint--md) {
-      width: 44px;
       height: 44px;
+      width: 44px;
     }
+  }
 
+// Case study specific logo color
+// -----------------------------------------------------------------------------
+  &__svg {
     @each $color-name, $color-value in $project-colors {
       .case-study--#{$color-name} & {
         fill: $color-value;

@@ -27,9 +27,10 @@
 // -----------------------------------------------------------------------------
   &__top {
     position: absolute;
-    border: none;
-    top: 0;
     right: $margin-standard--sm;
+    top: 0;
+    
+    border: none;
     
     @media (min-width: $breakpoint--xs) {
       right: $margin-standard--md;
@@ -46,6 +47,8 @@
     color: $brand-color--red;
     transition: all 400ms ease 300ms;
 
+// Case study specific call to action text
+// -----------------------------------------------------------------------------
     @each $color-name, $color-value in $project-colors {
       .case-study--#{$color-name} & {
         color: $color-value;
@@ -53,6 +56,8 @@
     }
   }
 
+// Reset wrapper position
+// -----------------------------------------------------------------------------
   .l-centred {
     position: relative;
   }

@@ -1,18 +1,19 @@
 // =============================================================================
-// PRIMARY NAVIGATION COMPONENT
+// ABOUT PAGE
 // =============================================================================
 
 .about {
 
+// About page title
+// -----------------------------------------------------------------------------
   &__title {
     position: relative;
     z-index: $z-index--title;
 
     @media (min-width: $breakpoint--md) {
+      float: left;
       padding-top: 100px;
       width: 460px;
-    
-      float: left;
     }
 
     @media (min-width: $breakpoint--lg) {
@@ -22,6 +23,8 @@
     }
   }
 
+// About page banner
+// -----------------------------------------------------------------------------
   &__banner {
     margin-top: $margin-standard--sm;
 

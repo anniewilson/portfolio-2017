@@ -4,13 +4,17 @@
 
 .primary-nav {
 
+// Primary navigation item
+// -----------------------------------------------------------------------------
   &__item {
     display: inline-block;
   }
 
+// Primary navigation link
+// -----------------------------------------------------------------------------
   &__link {
-    display: block;
     border: none;
+    display: block;
     margin-right: 24px;
     padding: 8px 0 8px;
 
@@ -34,11 +38,17 @@
   }
 }
 
+// Active colours based on page wrapper
+// -----------------------------------------------------------------------------
+// @todo: Make this less ugly. Create active class.
+// -----------------------------------------------------------------------------
 .about .about,
 .projects .projects {
   color: $brand-color--red;
 }
 
+// Case study specific active color
+// -----------------------------------------------------------------------------
 @each $color-name, $color-value in $project-colors {
   .case-study--#{$color-name} .projects {
     color: $color-value !important;
