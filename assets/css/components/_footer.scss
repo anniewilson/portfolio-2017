@@ -1,0 +1,59 @@
+// =============================================================================
+// FOOTER COMPONENT
+// =============================================================================
+
+.footer {
+  padding-bottom: $margin-standard--xs * 2;
+  padding-top: $margin-standard--xs * 2;
+  
+  background: $color-grey--4;
+
+  @media (min-width: $breakpoint--sm) {
+    padding-bottom: $margin-standard--sm * 2;
+    padding-top: $margin-standard--sm * 2;
+  }
+
+  @media (min-width: $breakpoint--md) {
+    padding-bottom: $margin-standard--md * 2;
+    padding-top: $margin-standard--md * 2;
+  }
+
+  @media (min-width: $breakpoint--lg) {
+    padding-bottom: $margin-standard--lg * 2;
+    padding-top: $margin-standard--lg * 2;
+  }
+
+// Scroll to top button
+// -----------------------------------------------------------------------------
+  &__top {
+    position: absolute;
+    border: none;
+    top: 0;
+    right: $margin-standard--sm;
+    
+    @media (min-width: $breakpoint--xs) {
+      right: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--sm) {
+      right: $margin-standard--lg;
+    }
+  }
+
+// Call to action text
+// -----------------------------------------------------------------------------
+  &__cta {
+    color: $brand-color--red;
+    transition: all 400ms ease 300ms;
+
+    @each $color-name, $color-value in $project-colors {
+      .case-study--#{$color-name} & {
+        color: $color-value;
+      }
+    }
+  }
+
+  .l-centred {
+    position: relative;
+  }
+}

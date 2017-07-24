@@ -1,0 +1,27 @@
+// =============================================================================
+// SOCIAL NAVIGATION COMPONENT
+// =============================================================================
+
+.social-nav {
+  margin-top: $margin-standard--sm;
+
+  @media (min-width: $breakpoint--md) {
+    margin-top: $margin-standard--lg;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    margin-right: 12px;
+    
+    @media (min-width: $breakpoint--xs) {
+      margin-right: 16px;
+    }
+    
+    @media (min-width: $breakpoint--sm) {
+      margin-right: 24px;
+    }
+  }
+}

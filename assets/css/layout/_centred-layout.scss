@@ -1,0 +1,19 @@
+// =============================================================================
+// LAYOUT FOR CENTRED COLUMN
+// =============================================================================
+
+.l-centred {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $margin-standard--sm;
+  max-width: $page-width--lg + ($margin-standard--lg * 2);
+  // background: rgba(red,0.2);
+
+  @media (min-width: $breakpoint--xs) {
+    padding: 0 $margin-standard--md;
+  }
+
+  @media (min-width: $breakpoint--sm) {
+    padding: 0 $margin-standard--lg;
+  }
+}

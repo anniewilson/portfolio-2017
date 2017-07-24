@@ -1,0 +1,40 @@
+// =============================================================================
+// PRIMARY NAVIGATION COMPONENT
+// =============================================================================
+
+.about {
+
+  &__title {
+    position: relative;
+    z-index: $z-index--title;
+
+    @media (min-width: $breakpoint--md) {
+      padding-top: 100px;
+      width: 460px;
+    
+      float: left;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      width: 650px;
+      
+      font-size: 112px;
+    }
+  }
+
+  &__banner {
+    margin-top: $margin-standard--sm;
+
+    @media (min-width: $breakpoint--xs) {
+      margin-top: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--sm) {
+      margin-top: $margin-standard--lg;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      margin-top: 0;
+    }
+  }
+}

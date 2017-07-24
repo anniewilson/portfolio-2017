@@ -1,0 +1,81 @@
+// =============================================================================
+// DEVICE COMPONENT
+// =============================================================================
+
+// iPhone device wrapper
+// -----------------------------------------------------------------------------
+.device-iphone {
+  border: 1px solid $border-color--standard;
+  padding: 22% 5%;
+  border-radius: 14.5349%/7.1429%;
+  position: relative;
+
+  img {
+    width: 100%;
+    border: 1px solid $border-color--standard;
+  }
+
+  &:after {
+    bottom: 1.9%;
+    left: 50%;
+    border: 1px solid $border-color--standard;
+    border-radius: 50%;
+    content: '';
+    width: 14.5349%;
+    margin-left: -(14.5349% / 2);
+    height: 7.1429%;
+    display: block;
+    position: absolute;
+  }
+
+  &:before {
+    top: 4%;
+    left: 50%;
+    border: 1px solid $border-color--standard;
+    border-radius: 14.0543%/50%;
+    content: '';
+    width: 14.5349%;
+    margin-left: -(14.5349% / 2);
+    height: 2%;
+    display: block;
+    position: absolute;
+  }
+}
+
+// Desktop browser device wrapper
+// -----------------------------------------------------------------------------
+.device-desktop {
+  background: $border-color--standard;
+  border: 1px solid $border-color--standard;
+  border-radius: 4px;
+  padding-top: 8px;
+  position: relative;
+
+  @media (min-width: $breakpoint--sm) {
+    padding-top: 16px;
+    border-radius: 6px;
+  }
+
+  @media (min-width: $breakpoint--md) {
+    padding-top: 24px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  &--sm {
+    border-radius: 2px;
+    padding-top: 6px;
+
+    @media (min-width: $breakpoint--sm) {
+      border-radius: 2px;
+      padding-top: 8px;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      border-radius: 4px;
+      padding-top: 8px;
+    }
+  }
+}

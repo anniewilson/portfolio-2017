@@ -1,0 +1,46 @@
+// =============================================================================
+// PRIMARY NAVIGATION COMPONENT
+// =============================================================================
+
+.primary-nav {
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    display: block;
+    border: none;
+    margin-right: 24px;
+    padding: 8px 0 8px;
+
+    @media (min-width: $breakpoint--sm) {
+      margin-left: 40px;
+      margin-right: 0;
+      padding: 0;
+    }
+
+    &:hover {
+      color: $brand-color--red;
+    }
+
+    @each $color-name, $color-value in $project-colors {
+      .case-study--#{$color-name} & {
+        &:hover {
+          color: $color-value !important;
+        }
+      }
+    }
+  }
+}
+
+.about .about,
+.projects .projects {
+  color: $brand-color--red;
+}
+
+@each $color-name, $color-value in $project-colors {
+  .case-study--#{$color-name} .projects {
+    color: $color-value !important;
+  }
+}

@@ -1,0 +1,32 @@
+// =============================================================================
+// BASE IMAGES
+// =============================================================================
+
+img {
+  display: block;
+}
+
+.img--full {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  margin-top: 16px;
+
+  color: $text-color--subdued;
+  // text-transform: uppercase;
+  font-size: 14px;
+
+  @media (min-width: $breakpoint--lg) {
+    font-size: 15px;
+  }
+}
+
+.border {
+  border: 1px solid $border-color--standard;
+}

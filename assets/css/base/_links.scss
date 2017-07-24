@@ -1,0 +1,50 @@
+// =============================================================================
+// BASE LINKS
+// =============================================================================
+
+a {
+  color: $text-color--standard;
+  text-decoration: none;
+  transition:
+    color 300ms ease,
+    border 300ms ease;
+  border-bottom: 2px solid $link-color;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $link-color--hover;
+  }
+
+  @each $color-name, $color-value in $project-colors {
+    .case-study--#{$color-name} & {
+      border-color: $color-value;
+
+      &:hover,
+      &:active,
+      &:focus {
+        border-color: $link-color--hover;
+      }
+    }
+
+    .case-study--#{$color-name} .footer & {
+      &:hover,
+      &:active,
+      &:focus {
+        border-color: $color-value;
+      }
+    }
+  }
+
+// Footer links
+// -----------------------------------------------------------------------------
+  .footer & {
+    border-color: $link-color--hover;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $link-color;
+    }
+  }
+}

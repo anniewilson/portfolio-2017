@@ -1,0 +1,17 @@
+block append vars
+  - articles = env.helpers.getArticles(contents);
+
+ul.project-tiles
+  each article in articles
+    li.project-tiles__item
+      a(href=article.url).project
+        div.project__content
+          h2.project__title(class='project__title--' + article.metadata.bodyclass)= article.title
+          h5 View case study&nbsp;
+            svg.icon.icon--arrow-right(role='img', aria-labelledby='title')
+              title Arrow right icon
+              use(xlink:href='#icon--arrow-right')
+        picture
+          source(srcset=article.url + article.metadata.bodyclass + '--thumb.jpg 1x, ' + article.url + article.metadata.bodyclass + '--thumb@2x.jpg 2x', media='(min-width: 840px)')
+          source(srcset=article.url + article.metadata.bodyclass + '--thumb-sm.jpg 1x, ' + article.url + article.metadata.bodyclass + '--thumb-sm@2x.jpg 2x')
+          img.project__image(srcset=article.url + article.metadata.bodyclass + '--thumb.jpg', alt='…')

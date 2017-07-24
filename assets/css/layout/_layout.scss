@@ -1,0 +1,76 @@
+// =============================================================================
+// LAYOUT
+// =============================================================================
+
+.main {
+  padding-bottom: $margin-standard--xs * 2;
+  padding-top: 20px;
+  overflow-x: hidden;
+
+  @media (min-width: $breakpoint--sm) {
+    padding-bottom: $margin-standard--sm * 2;
+    padding-top: 100px;
+  }
+
+  @media (min-width: $breakpoint--md) {
+    padding-bottom: $margin-standard--md * 2;
+    padding-top: 200px;
+  }
+
+  @media (min-width: $breakpoint--lg) {
+    padding-bottom: $margin-standard--lg * 2;
+    padding-top: 220px;
+  }
+
+  &--holding {
+    padding-top: $margin-standard--xs * 2;
+
+    @media (min-width: $breakpoint--sm) {
+      padding-top: $margin-standard--sm * 2;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      padding-top: $margin-standard--md * 2;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      padding-top: $margin-standard--lg * 2;
+    }
+  }
+
+  &__header,
+  &__content {
+    padding-bottom: $margin-standard--xs;
+
+    @media (min-width: $breakpoint--sm) {
+      padding-bottom: $margin-standard--sm;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      padding-bottom: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      padding-bottom: $margin-standard--lg;
+    }
+  }
+
+  &__content {
+    padding-top: $margin-standard--xs;
+
+    @media (min-width: $breakpoint--sm) {
+      padding-top: $margin-standard--sm;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      padding-top: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      padding-top: $margin-standard--lg;
+    }
+  }
+}

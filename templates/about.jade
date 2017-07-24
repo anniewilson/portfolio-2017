@@ -1,0 +1,82 @@
+extends _layout
+
+block append vars
+  - bodyclass = 'about'
+
+block prepend title
+  | #{ page.title + ' - '}
+
+block header
+  header.about__header
+    div.grid
+      div.grid__item.grid__item--2
+        h1.about__title= page.title
+      div.grid__item.grid__item--4
+        picture
+          source(srcset='/images/annie-wilson__portrait.jpg 1x, ' + '/images/annie-wilson__portrait@2x.jpg 2x')
+          img.about__banner.img--full(srcset='/images/annie-wilson__portrait.jpg', alt='Portrait of me - Annie Wilson')
+
+block content
+  div.grid
+    div.grid__item.grid__item--4.grid__item--offset-2.main__content.content-area
+      != typogr(page.html).typogrify()
+
+  section.resume
+    header.resume__header
+      h5.resume__title Experience
+      div.resume__link
+        a(href="/Annie-Wilson_Resume_170720.pdf" target="_blank") Download Resume
+          svg.icon.icon--arrow-download(role='img', aria-labelledby='title')
+            title Arrow download icon
+            use(xlink:href='#icon--arrow-download')
+        | &emsp;
+        a(href="https://www.linkedin.com/in/broccoli-wilson/" target="_blank") Linkedin
+          svg.icon.icon--arrow-right(role='img', aria-labelledby='title')
+            title Arrow right icon
+            use(xlink:href='#icon--arrow-right')
+    .grid
+      .grid__item.grid__item--4.grid__item--offset-2.content-area
+        .resume__item
+          h5.resume__date 2015–Present
+          h4.resume__title
+            strong Senior Designer
+          h4.resume__title This Little Duck
+        .resume__item
+          h5.resume__date 2010–2017
+          h4.resume__title
+            strong Freelance Product Design
+        .resume__item
+          h5.resume__date 2013–2015
+          h4.resume__title
+            strong UI Designer and Front-end Developer
+          h4.resume__title Enigma (formerly XO Digital)
+        .resume__item
+          h5.resume__date 2011–2013
+          h4.resume__title
+            strong Digital Designer
+          h4.resume__title Creative Licence Digital
+        .resume__item
+          h5.resume__date 2010
+          h4.resume__title
+            strong Waste Education Project Officer
+          h4.resume__title Charles Sturt University
+  section.resume
+    header.resume__header
+      h5.resume__title Education
+    .grid
+      .grid__item.grid__item--4.grid__item--offset-2.content-area
+        .resume__item
+          h5.resume__date 2007–2010
+          h4.resume__title
+            strong Charles Sturt University, Wagga Wagga
+          h4.resume__title Bachelor of Arts, Graphic Design
+        .resume__item
+          h5.resume__date 2010
+          h4.resume__title
+            strong Brobygrafiska, Sweden
+          h4.resume__title Graphic Design Exchange Program
+        .resume__item
+          h5.resume__date 2008
+          h4.resume__title
+            strong Oregon State University, United States
+          h4.resume__title Graphic Design Exchange Program

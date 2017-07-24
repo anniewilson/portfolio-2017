@@ -1,0 +1,32 @@
+// =============================================================================
+// SIGN UP COMPONENT
+// =============================================================================
+
+.sign-up {
+
+  @media (min-width: $breakpoint--sm) {
+    margin-top: $margin-standard--sm;
+    margin-left: -$margin-standard--sm;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  * {
+    margin-top: $margin-standard--xs;
+    width: 100%;
+    text-align: left;
+
+    @media (min-width: $breakpoint--sm) {
+      margin-top: 0;
+      flex: 1 1 (2/5 * 100%);
+      margin-left: $margin-standard--sm;
+    }
+  }
+
+  button {
+    @media (min-width: $breakpoint--sm) {
+      white-space: nowrap;
+      flex: 1 1 (1/5 * 100%);
+    }
+  }
+}

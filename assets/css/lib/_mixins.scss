@@ -1,0 +1,39 @@
+// =============================================================================
+// MIXINS AND PLACEHOLDERS
+// =============================================================================
+
+// Placeholders for @extends
+// -----------------------------------------------------------------------------
+%clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+%font-smoothing {
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Mixins
+// -----------------------------------------------------------------------------
+@mixin hidden($hide: true) {
+  @if ($hide == false) {
+    height: auto;
+    position: static;
+    width: auto;
+  }
+  @else {
+    height: 1px;
+    left: -999em !important;
+    overflow: hidden;
+    position: absolute;
+    top: auto !important;
+    width: 1px;
+  }
+}

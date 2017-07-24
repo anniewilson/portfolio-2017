@@ -1,0 +1,43 @@
+// =============================================================================
+// BASE FONTS
+// =============================================================================
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url('/fonts/FoundersGroteskWeb-Medium.eot');
+  src: url('/fonts/FoundersGroteskWeb-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FoundersGroteskWeb-Medium.woff2') format('woff2'),
+    url('/fonts/FoundersGroteskWeb-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Founders Grotesk Text';
+  src: url('/fonts/FoundersGroteskTextWeb-Light.eot');
+  src: url('/fonts/FoundersGroteskTextWeb-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FoundersGroteskTextWeb-Light.woff2') format('woff2'),
+    url('/fonts/FoundersGroteskTextWeb-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Founders Grotesk Text';
+  src: url('/fonts/FoundersGroteskTextWeb-LightItalic.eot');
+  src: url('/fonts/FoundersGroteskTextWeb-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FoundersGroteskTextWeb-LightItalic.woff2') format('woff2'),
+    url('/fonts/FoundersGroteskTextWeb-LightItalic.woff') format('woff');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Founders Grotesk Text';
+  src: url('/fonts/FoundersGroteskTextWeb-Medium.eot');
+  src: url('/fonts/FoundersGroteskTextWeb-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FoundersGroteskTextWeb-Medium.woff2') format('woff2'),
+    url('/fonts/FoundersGroteskTextWeb-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+}

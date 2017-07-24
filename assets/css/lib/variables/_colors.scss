@@ -1,0 +1,56 @@
+// =============================================================================
+// COLOURS
+// =============================================================================
+
+// Brand colours
+// -----------------------------------------------------------------------------
+$brand-color--red: #FF4D40;
+
+// Project colours
+// -----------------------------------------------------------------------------
+$project-color--art-post: #EF2C92;
+
+$project-colors: (
+  art-post: #ec3392,
+  this-little-duck: #419af2,
+  salad-math: #69cc5a,
+  field-intouch: #66cdc1,
+  novartis: #a997ea,
+  boundary-bot: #3a5fe5,
+  work-it-off: $brand-color--red
+);
+
+// Neutral colours
+// -----------------------------------------------------------------------------
+//  IMPORTANT:
+//  When adding greys, seriously think about if one of the following colours
+//  is a close enough match and use that instead.
+//  Stay away from colours around the 50% Black mark for text backgrounds for
+//  accessible contrast.
+//
+//  Naming Conventions:
+//  $color-grey--15 = a grey made up of 15% black,
+//  $color-grey--70 = a grey made up of 70% black etc
+// -----------------------------------------------------------------------------
+$color-white: #ffffff;
+$color-grey--4: #f7f7f7;  // 4% Black
+$color-grey--12: #e2e2e2; // 12% Black
+$color-grey--20: #CCCCCC; // 20% Black
+$color-grey--50: #808080; // 50% Black
+$color-grey--60: #666666; // 60% Black
+$color-grey--80: #333333; // 80% Black
+
+// Utility colours
+// -----------------------------------------------------------------------------
+
+
+// Colours in use
+// -----------------------------------------------------------------------------
+$text-color--standard: $color-grey--80;
+$text-color--subdued: $color-grey--50;
+$text-color--light: $color-white;
+
+$border-color--standard: $color-grey--12;
+
+$link-color--hover: $color-grey--20;
+$link-color: $brand-color--red;

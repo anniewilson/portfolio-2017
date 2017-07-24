@@ -1,0 +1,92 @@
+// =============================================================================
+// GRID LAYOUT
+// =============================================================================
+
+.grid {
+  @extend %clearfix;
+
+  @media (min-width: $breakpoint--md) {
+    margin-left: -$margin-standard--md;
+  }
+
+  @media (min-width: $breakpoint--lg) {
+    margin-left: -$margin-standard--xl;
+  }
+
+  &--sm {
+    margin-left: -$margin-standard--sm;
+    
+    @media (min-width: $breakpoint--md) {
+      margin-left: -$margin-standard--sm;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      margin-left: -$margin-standard--md;
+    }
+  }
+
+  &__item {
+    vertical-align: top;
+
+    @media (min-width: $breakpoint--md) {
+      float: left;
+      padding-left: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      padding-left: $margin-standard--xl;
+    }
+
+
+    .grid--sm & {
+      float: left;
+      padding-left: $margin-standard--sm;
+
+      @media (min-width: $breakpoint--md) {
+        padding-left: $margin-standard--sm;
+      }
+
+      @media (min-width: $breakpoint--lg) {
+        padding-left: $margin-standard--md;
+      }
+    }
+
+    @for $i from 1 through 6 {
+      &--#{$i} {
+
+        .grid--sm & {
+          width: 1 / 6 * $i * 100%;
+        }
+
+        @media (min-width: $breakpoint--md) {
+          width: 1 / 6 * $i * 100%;
+        }
+      }
+    }
+    
+    @for $i from 1 through 6 {
+      &--offset-#{$i} {
+
+        .grid--sm & {
+          margin-left: 1 / 6 * $i * 100%;
+        }
+
+        @media (min-width: $breakpoint--md) {
+          margin-left: 1 / 6 * $i * 100%;
+        }
+      }
+    }
+  }
+
+  &__item + &__item {
+    margin-top: $margin-standard--md;
+
+    @media (min-width: $breakpoint--md) {
+      margin-top: 0;
+    }
+
+    .grid--sm & {
+      margin-top: 0;
+    }
+  }
+}

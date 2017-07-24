@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "moment": "2.3.x",
+    "typogr": "0.5.x",
+    "underscore": "1.4.x",
+    "wintersmith-livereload": "^1.0.0"
+  },
+  "private": "true",
+  "scripts": {
+    "start": "wintersmith preview | grunt",
+    "build": "grunt dist:clean ; wintersmith build ; grunt dist:bust"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-cache-bust": "^1.6.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-svgmin": "^4.0.0",
+    "grunt-svgstore": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "normalize.css": "^7.0.0",
+    "postcss-import": "^10.0.0",
+    "postcss-pxtorem": "^4.0.1"
+  }
+}

@@ -1,0 +1,73 @@
+// =============================================================================
+// BASE LISTS
+// =============================================================================
+
+// Standard list reset
+// -----------------------------------------------------------------------------
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// List styles
+// -----------------------------------------------------------------------------
+li {
+
+// Content area list styles
+// -----------------------------------------------------------------------------
+  .content-area & {
+    margin-top: 16px;
+    margin-bottom: 0;
+
+    + li {
+      margin-top: 8px;
+    }
+
+    &:before {
+      content: "";
+
+      border-radius: 50%;
+      display: block;
+      float: left;
+      height: 4px;
+      margin-left: -12px;
+      margin-top: 13px;
+      width: 4px;
+      
+      background: $text-color--standard;
+    }
+  }
+}
+
+// Definition list styles
+// -----------------------------------------------------------------------------
+dl {
+  // font-family: $font-family--monospace;
+  // font-weight: normal;
+  // font-size: 14px;
+
+  // @media (min-width: $breakpoint--lg) {
+  //   font-size: 15px;
+  // }
+}
+
+// Definition term and description
+// -----------------------------------------------------------------------------
+dt,
+dd {
+  margin: 0;
+}
+
+// Definition term proceding a definition description
+// -----------------------------------------------------------------------------
+dd + dt {
+  margin-top: 16px;
+}
+
+// Definition description
+// -----------------------------------------------------------------------------
+dd {
+  color: $text-color--subdued;
+}

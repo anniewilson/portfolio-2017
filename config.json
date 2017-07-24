@@ -1,0 +1,48 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Annie Wilson - Product Designer",
+    "owner": "Someone",
+    "description": "Annie Wilson's Portfolio",
+    "nav": [
+      {
+        "name": "Projects",
+        "cssClass": "projects",
+        "description": "Projects index",
+        "url": "/projects/"
+      },
+      {
+        "name": "About",
+        "cssClass": "about",
+        "description": "About",
+        "url": "/about"
+      },
+      {
+        "name": "Contact",
+        "cssClass": "contact",
+        "description": "Contact ",
+        "url": "#contact"
+      }
+    ]
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "wintersmith-livereload"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 40,
+    "articles": "projects"
+  }
+}

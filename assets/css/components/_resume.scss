@@ -1,0 +1,129 @@
+// =============================================================================
+// RESUME COMPONENT
+// =============================================================================
+
+.resume {
+  position: relative;
+
+  &__header {
+    position: relative;
+
+    padding-bottom: $margin-standard--xs * .5;
+    padding-top: $margin-standard--xs;
+
+    @media (min-width: $breakpoint--sm) {
+      padding-bottom: $margin-standard--sm * .5;
+      padding-top: $margin-standard--sm;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      padding-bottom: $margin-standard--md * .5;
+      padding-top: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      padding-bottom: $margin-standard--lg * .5;
+      padding-top: $margin-standard--lg;
+    }
+  }
+
+  &__item {
+    clear: both;
+    padding-bottom: $margin-standard--xs;
+    padding-top: $margin-standard--xs;
+
+    @media (min-width: $breakpoint--sm) {
+      padding-bottom: $margin-standard--sm;
+      padding-top: $margin-standard--sm;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      padding-bottom: $margin-standard--md;
+      padding-top: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      padding-bottom: $margin-standard--lg;
+      padding-top: $margin-standard--lg;
+    }
+
+    &:before,
+    &:last-child:after {
+      content: '';
+      position: absolute;
+      background: $border-color--standard;
+      height: 1px;
+      display: block;
+      right: 0;
+      left: 0;
+    }
+
+    &:before {
+      margin-top: -$margin-standard--xs;
+
+      @media (min-width: $breakpoint--sm) {
+        margin-top: -$margin-standard--sm;
+      }
+
+      @media (min-width: $breakpoint--md) {
+        margin-top: -$margin-standard--md;
+      }
+
+      @media (min-width: $breakpoint--lg) {
+        margin-top: -$margin-standard--lg;
+      }
+    }
+
+    &:last-child:after {
+      margin-top: $margin-standard--xs;
+
+      @media (min-width: $breakpoint--sm) {
+        margin-top: $margin-standard--sm;
+      }
+
+      @media (min-width: $breakpoint--md) {
+        margin-top: $margin-standard--md;
+      }
+
+      @media (min-width: $breakpoint--lg) {
+        margin-top: $margin-standard--lg;
+      }
+    }
+  }
+
+  &__link {
+
+    @media (min-width: $breakpoint--sm) {
+      position: absolute;
+      right: 0;
+      top: $margin-standard--sm;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      top: $margin-standard--md;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      top: $margin-standard--lg;
+    }
+  }
+
+  &__date {
+    @media (min-width: $breakpoint--md) {
+      position: absolute;
+      left: 0;
+
+      line-height: 36px;
+    }
+
+    @media (min-width: $breakpoint--lg) {
+      line-height: 36px;
+    }
+  }
+
+  &__title {
+    @media (min-width: $breakpoint--md) {
+      margin-top: 0;
+    }
+  }
+}

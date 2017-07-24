@@ -1,0 +1,43 @@
+// =============================================================================
+// BUTTON COMPONENTS
+// =============================================================================
+
+.button {  
+  border-radius: 0 !important;
+  border: 0 solid $brand-color--red;
+  border-bottom-width: 1px;
+  display: inline-block;
+  padding: 6px 10px;
+  vertical-align: middle;
+  width: auto;
+
+  -webkit-appearance: none;
+  background: #fff;
+  cursor: pointer;
+  font-family: $font-family--standard;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.6;
+  text-decoration: none;
+  transition: all 300ms ease;
+
+  @media (min-width: $breakpoint--lg) {
+    font-size: 19px;
+  }
+
+  &,
+  &:active,
+  &:focus,
+  &:hover,
+  &:visited {
+    color: $brand-color--red;
+  }
+
+  &:active,
+  &:focus,
+  &:hover {
+    background: #fff;
+    border-color: $color-grey--60;
+    color: $color-grey--60;
+  }
+}

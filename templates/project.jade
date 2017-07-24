@@ -1,0 +1,46 @@
+
+extends _layout
+
+block append vars
+  - bodyclass = 'case-study case-study--' + page.metadata.bodyclass;
+
+block prepend title
+  | #{ page.title + ' - '}
+
+block header
+  header.case-study__header
+    .case-study__title
+      h1= page.title
+      h4= page.metadata.subtitle
+    picture
+      source(srcset=page.metadata.bodyclass + '--banner.jpg 1x, ' + page.metadata.bodyclass + '--banner@2x.jpg 2x', media='(min-width: 840px)')
+      source(srcset=page.metadata.bodyclass + '--banner-sm.jpg 1x, ' + page.metadata.bodyclass + '--banner-sm@2x.jpg 2x')
+      img.case-study__banner(srcset=page.metadata.bodyclass + '--banner.jpg', alt='…')
+
+
+
+block content
+  .grid.case-study__content
+    .grid__item.grid__item--2.main__content.content-area
+      .case-study__detail
+        dl
+          if page.metadata.role
+            dt My role
+            dd= page.metadata.role
+          if page.metadata.client
+            dt Client
+            dd= page.metadata.client
+          if page.metadata.employer
+            dt Employer
+            dd= page.metadata.employer
+          if page.metadata.when
+            dt When
+            dd= page.metadata.when
+        if page.metadata.link
+          p
+            a(href=page.metadata.link, target="_blank") See it in action&nbsp;
+              svg.icon.icon--arrow-right(role='img', aria-labelledby='title')
+                title Arrow right icon
+                use(xlink:href='#icon--arrow-right')
+    .grid__item.grid__item--4.main__content.content-area
+      != typogr(page.html).typogrify()
