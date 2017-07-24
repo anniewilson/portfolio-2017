@@ -6,6 +6,7 @@ module.exports = function (grunt) {
   // Define the configuration for all the tasks
   grunt.initConfig({
 
+    // Build Styles
     sass: {
       options: {
         includePaths: [
@@ -17,6 +18,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // CSS post
     postcss: {
       options: {
         map: {
@@ -44,6 +46,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // Minify js
     uglify: {
       my_target: {
         files: {
@@ -52,6 +55,7 @@ module.exports = function (grunt) {
       }
     },
 
+    // Watch task
     watch: {
       css: {
         files: ['assets/css/**/*.scss'],
@@ -67,6 +71,7 @@ module.exports = function (grunt) {
       },
     },
 
+    // Copy task
     copy: {
       css: {
         expand: true,
@@ -77,6 +82,24 @@ module.exports = function (grunt) {
       }
     },
 
+    // Clean build directory for fresh build files
+    clean: {
+      build: ['build/']
+    },
+
+    // Cache bust css and js
+    cacheBust: {
+      taskName: {
+        options: {
+          baseDir: 'build/',
+          deleteOriginals: true,
+          assets: ['js/**.js','css/**.css']
+        },
+        src: ['build/**/*.html']
+      }
+    },
+    
+    // Minify svg files
     svgmin: {
       dist: {
         files: [{
@@ -95,21 +118,7 @@ module.exports = function (grunt) {
       }
     },
 
-    clean: {
-      build: ['build/']
-    },
-
-    cacheBust: {
-      taskName: {
-        options: {
-          baseDir: 'build/',
-          deleteOriginals: true,
-          assets: ['js/**.js','css/**.css']
-        },
-        src: ['build/**/*.html']
-      }
-    },
-
+    // Create svg stylesheet
     svgstore: {
       options: {
         prefix: 'icon--',
