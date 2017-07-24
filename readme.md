@@ -2,12 +2,13 @@
 
 ## Requirements
  
-- Node
+- [Node.js](https://nodejs.org/en/)
+- [Wintersmith](https://github.com/jnordberg/wintersmith)
 
 ## Setup
 
 ```
-	$ npm install
+  $ npm install
 ```
 
 ## Development
