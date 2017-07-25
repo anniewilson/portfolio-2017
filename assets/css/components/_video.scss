@@ -1,0 +1,20 @@
+// =============================================================================
+// VIDEO COMPONENT
+// =============================================================================
+
+.video-wrapper {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 902 / 1578 * 100%;
+
+  video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+}

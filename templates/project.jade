@@ -14,7 +14,7 @@ block header
     picture
       source(srcset=page.metadata.bodyclass + '--banner.jpg 1x, ' + page.metadata.bodyclass + '--banner@2x.jpg 2x', media='(min-width: 840px)')
       source(srcset=page.metadata.bodyclass + '--banner-sm.jpg 1x, ' + page.metadata.bodyclass + '--banner-sm@2x.jpg 2x')
-      img.case-study__banner(srcset=page.metadata.bodyclass + '--banner.jpg', alt='…')
+      img.case-study__banner(srcset=page.metadata.bodyclass + '--banner.jpg', alt=page.title)
 
 block content
   .grid.case-study__content

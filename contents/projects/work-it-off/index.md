@@ -1,5 +1,6 @@
 ---
 title: "Work it Off!"
+olderwork: true
 subtitle: "Treat yo' self. Calculate calories in and calories out with an iPhone app."
 role: "User experience and interface design"
 client: "Jane Abernethy"
@@ -16,7 +17,7 @@ bodyclass: work-it-off
       <div class="device-iphone">
         <picture>
           <source srcset="work-it-off_01-search.jpg 1x, work-it-off_01-search@2x.jpg 2x">
-          <img src="work-it-off_01-search.jpg" alt="" class="img--full">
+          <img src="work-it-off_01-search.jpg" alt="Work it Off - Search" class="img--full">
         </picture>
        </div>
     </div>
@@ -24,7 +25,7 @@ bodyclass: work-it-off
       <div class="device-iphone">
         <picture>
           <source srcset="work-it-off_02-calories.jpg 1x, work-it-off_02-calories@2x.jpg 2x">
-          <img src="work-it-off_02-calories.jpg" alt="" class="img--full">
+          <img src="work-it-off_02-calories.jpg" alt="Work it Off - Calories" class="img--full">
         </picture>
        </div>
     </div>
@@ -32,7 +33,7 @@ bodyclass: work-it-off
       <div class="device-iphone">
         <picture>
           <source srcset="work-it-off_03-serving.jpg 1x, work-it-off_03-serving@2x.jpg 2x">
-          <img src="work-it-off_03-serving.jpg" alt="" class="img--full">
+          <img src="work-it-off_03-serving.jpg" alt="Work it Off - Servings" class="img--full">
         </picture>
        </div>
     </div>
@@ -45,7 +46,7 @@ bodyclass: work-it-off
       <div class="device-iphone">
         <picture>
           <source srcset="work-it-off_04-run.jpg 1x, work-it-off_04-run@2x.jpg 2x">
-          <img src="work-it-off_04-run.jpg" alt="" class="img--full">
+          <img src="work-it-off_04-run.jpg" alt="Work it Off - Run" class="img--full">
         </picture>
        </div>
     </div>
@@ -53,7 +54,7 @@ bodyclass: work-it-off
       <div class="device-iphone">
         <picture>
           <source srcset="work-it-off_05-burpee.jpg 1x, work-it-off_05-burpee@2x.jpg 2x">
-          <img src="work-it-off_05-burpee.jpg" alt="" class="img--full">
+          <img src="work-it-off_05-burpee.jpg" alt="Work it Off - Burpee" class="img--full">
         </picture>
        </div>
     </div>

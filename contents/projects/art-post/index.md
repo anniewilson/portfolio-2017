@@ -1,11 +1,12 @@
 ---
 title: "Art Post"
+casestudy: true
 subtitle: "A online event program platform and progressive web app"
 role: "UX & UI Design, Front-end Development"
 client: "Inner West Council"
 employer: "This Little Duck"
 link: https://artpost.innerwest.nsw.gov.au/maps/
-date: 2017-05
+date: 2017-04
 template: project.jade
 bodyclass: art-post
 ---
@@ -19,7 +20,7 @@ This Little Duck was approached by the Inner West Council about creating a mobil
 
 <picture>
   <source srcset="art-post--pdf.jpg 1x, art-post--pdf@2x.jpg 2x">
-  <img src="art-post--pdf.jpg" alt="" class="case-study__img-inline">
+  <img src="art-post--pdf.jpg" alt="Art Post - PDF Guides" class="case-study__img-inline">
 </picture>
 
 ## Design
@@ -32,7 +33,7 @@ After an audit of the PDF programs Art Post typically provides, we prioritized t
       <div class="device-iphone">
         <picture>
           <source srcset="art-post--mobile-1.jpg 1x, art-post--mobile-1@2x.jpg 2x">
-          <img src="art-post--mobile-1.jpg" alt="" class="img--full">
+          <img src="art-post--mobile-1.jpg" alt="Art Post - Map" class="img--full">
         </picture>
        </div>
     </div>
@@ -40,7 +41,7 @@ After an audit of the PDF programs Art Post typically provides, we prioritized t
       <div class="device-iphone">
         <picture>
           <source srcset="art-post--mobile-2.jpg 1x, art-post--mobile-2@2x.jpg 2x">
-          <img src="art-post--mobile-2.jpg" alt="" class="img--full">
+          <img src="art-post--mobile-2.jpg" alt="Art Post - Map legend open" class="img--full">
         </picture>
        </div>
     </div>
@@ -48,7 +49,7 @@ After an audit of the PDF programs Art Post typically provides, we prioritized t
       <div class="device-iphone">
         <picture>
           <source srcset="art-post--mobile-3.jpg 1x, art-post--mobile-3@2x.jpg 2x">
-          <img src="art-post--mobile-3.jpg" alt="" class="img--full">
+          <img src="art-post--mobile-3.jpg" alt="Art Post - Map pin selected" class="img--full">
         </picture>
        </div>
     </div>
@@ -65,7 +66,7 @@ On small screens, the user has the option of hiding the overlay displaying the l
 
 <picture>
   <source srcset="art-post--desktop.jpg 1x, art-post--desktop@2x.jpg 2x">
-  <img src="art-post--desktop.jpg" alt="" class="case-study__img-full device-desktop">
+  <img src="art-post--desktop.jpg" alt="Art Post - Large screens" class="case-study__img-full device-desktop">
 </picture>
 
 For larger screens, I took advantage of the extra screen real estate and to keep the overlay detail visible at all times.
@@ -74,7 +75,7 @@ As the maps would be adapted for multiple campaigns, the visual design needed to
 
 <picture>
   <source srcset="art-post--patternlab.jpg 1x, art-post--patternlab@2x.jpg 2x">
-  <img src="art-post--patternlab.jpg" alt="" class="case-study__img-inline border">
+  <img src="art-post--patternlab.jpg" alt="Art Post - Patternlab" class="case-study__img-inline border">
 </picture>
 
 

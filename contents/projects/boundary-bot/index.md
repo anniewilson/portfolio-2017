@@ -1,5 +1,6 @@
 ---
 title: "Boundary Bot"
+olderwork: true
 subtitle: "Powering the next generation of location-aware applications."
 role: "Branding, illustration and visual design"
 employer: "This Little Duck"
@@ -13,5 +14,5 @@ bodyclass: boundary-bot
 
 <picture>
   <source srcset="boundary-bot--desktop.jpg 1x, boundary-bot--desktop@2x.jpg 2x" >
-  <img src="boundary-bot--desktop.jpg" alt="" class="case-study__img-full device-desktop">
+  <img src="boundary-bot--desktop.jpg" alt="Boundary Bot - Home" class="case-study__img-full device-desktop">
 </picture>

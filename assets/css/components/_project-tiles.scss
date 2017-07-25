@@ -18,16 +18,38 @@
     margin-top: $margin-standard--sm;
 
     @media (min-width: $breakpoint--md) {
-      flex: 1 0 (2/6 * 100%);
+      flex: 1 0 100%;
       margin-top: $margin-standard--lg;
       padding-left: $margin-standard--lg;
     }
   }
 
+  &--case-studies &__item:nth-child(2) {
+    @media (min-width: $breakpoint--md) {
+      flex: 1 0 (2/6 * 100%);
+
+      .project {
+        border: 1px solid $border-color--standard;
+      }
+    }
+  }
+
+  &--case-studies &__item:nth-child(3) {
+    @media (min-width: $breakpoint--md) {
+      flex: 1 0 (4/6 * 100%);
+    }
+  }
+
+  &--grid &__item {
+    @media (min-width: $breakpoint--md) {
+      flex: 1 0 (2/6 * 100%);
+    }
+  }
+
 // project item size - Large tiles
 // -----------------------------------------------------------------------------
-  &__item:nth-child(4n + 1),
-  &__item:nth-child(4n) {
+  &--grid &__item:nth-child(4n + 1),
+  &--grid &__item:nth-child(4n) {
     @media (min-width: $breakpoint--md) {
       flex: 1 0 (4/6 * 100%);
     }
