@@ -5,12 +5,20 @@ subtitle: "An engaging and simple tool for Novartis Field-Force Representatives 
 role: "User Interface Design, Front-End Development, CSS Animation"
 client: "Novartis"
 employer: "Creative Licence Digital"
-date: 2015-03
+date: 2015-04
 template: project.jade
 bodyclass: novartis
 ---
 
-<p class="large">Maps is a series of interactive infographic style forms for field-force reps that have been rolled out across several of the Novartis pharmaceutical brands. Originally designed as it’s own standalone iPad app it was later refactored as a module to fit into the Field InTouch platform.</p>
+<p class="large">Maps is a series of interactive infographic style forms. I designed the UI, interactions and animations of the first two Maps apps, the original ‘Xolair Maps’ and ‘Serelaxin Maps’. I also developed the static templates and animation for the apps and online analytics portals.</p>
+
+<p>Maps was originally designed as it’s own standalone iPad app, but was later refactored as a module to fit into the <a href="http://www.fieldintouch.com/" target="_blank">Field InTouch</a> platform, which I also designed. Featured here is the ‘Serelaxin Maps’ iteration.</p>
+
+<p>Maps was rolled out across several of the Novartis pharmaceutical brands to aid field-force reps in collecting client data. The user moves through either the account or customer section for each client, filling out each ‘unfilled’ grey bubble. The bubbles then become populated with data and colour, giving the rep an easy way to get a quick overview of a call’s completion and status. Each unfilled bubble represents a question or can open up into it’s own set of questions, only becoming ‘filled’ when each sub-question has been completed.</p>
+
+<p>In some instances there were 5 ‘levels’ of questions that needed to be completed, so it was important for the rep to be aware of which level they were in and to understand the functions of the various types of buttons. In addition to breadcrumbs, I created a colour system to be used consistently across the app—the populated colour of bubbles would become darker as you moved through the levels.</p>
+
+
 
 <picture>
   <source srcset="novartis--color-map.jpg 1x, novartis--color-map@2x.jpg 2x" >

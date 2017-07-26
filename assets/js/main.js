@@ -38,6 +38,7 @@ $(document).ready(function() {
       $(this.oldContainer).hide();
 
       document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
 
       $el.css({
         visibility : 'visible',

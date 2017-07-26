@@ -48,8 +48,7 @@
 
 // project item size - Large tiles
 // -----------------------------------------------------------------------------
-  &--grid &__item:nth-child(4n + 1),
-  &--grid &__item:nth-child(4n) {
+  &--grid &__item:nth-child(1) {
     @media (min-width: $breakpoint--md) {
       flex: 1 0 (4/6 * 100%);
     }

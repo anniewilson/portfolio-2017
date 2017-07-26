@@ -10,9 +10,13 @@ template: project.jade
 bodyclass: unsw-accommodation
 ---
 
-<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nulla, magnam molestias earum reiciendis neque. Praesentium accusamus unde necessitatibus vero a repudiandae illo, amet, inventore adipisci consectetur quae eveniet voluptas voluptatum.</p>
+<p class="large">Each year more than 20,000 students attending the University of New South Wales (UNSW) look for accommodation on campus or nearby. UNSW provides students with several College and Apartment options, catering for various lifestyles and levels of independence.</p>
 
-[Patternlab](http://styleguide.accom.thislittleduck-sites.com/)
+<p>Previously the web experience had been fragmented. UNSW had several sites listing accommodation options, as well as individual Colleges having their own sites. The experience was confusing for prospective students, who had no knowledge of accommodation options or which option would be most suitable for them.</p>
+
+<p>The challenge was to highlight each College’s or Apartment’s distinct features, whilst still providing a cohesive experience.</p>
+
+<p>I also developed a <a href="http://styleguide.accom.thislittleduck-sites.com/" target="_blank">series of components</a> which editors use to compose accommodation, landing and inner pages of content.</p>
 
 
 <div class="case-study__img-full">
