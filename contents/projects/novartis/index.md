@@ -21,38 +21,22 @@ bodyclass: novartis
 
 
 <picture>
-  <source srcset="novartis--color-map.jpg 1x, novartis--color-map@2x.jpg 2x" >
-  <img src="novartis--color-map.jpg" alt="Novartis Maps - Colour map" class="case-study__img-full case-study__img-inline--border">
+  <source srcset="/images/projects/novartis/novartis--color-map.jpg 1x, /images/projects/novartis/novartis--color-map@2x.jpg 2x" >
+  <img src="/images/projects/novartis/novartis--color-map.jpg" alt="Novartis Maps - Colour map" class="case-study__img-full case-study__img-inline--border">
 </picture>
 
 <div class="case-study__img-full">
   <div class="grid">
     <div class="grid__item grid__item--3">
       <picture>
-        <source srcset="novartis--1.jpg 1x, novartis--1@2x.jpg 2x">
-        <img src="novartis--1.jpg" alt="Novartis Maps - Home" class="img--full border">
+        <source srcset="/images/projects/novartis/novartis--1.jpg 1x, /images/projects/novartis/novartis--1@2x.jpg 2x">
+        <img src="/images/projects/novartis/novartis--1.jpg" alt="Novartis Maps - Home" class="img--full border">
       </picture>
     </div>
     <div class="grid__item grid__item--3">
       <picture>
-        <source srcset="novartis--2.jpg 1x, novartis--2@2x.jpg 2x">
-        <img src="novartis--2.jpg" alt="Novartis Maps - Account" class="img--full border">
-      </picture>
-    </div>
-  </div>
-</div>
-<div class="case-study__img-full">
-  <div class="grid">
-    <div class="grid__item grid__item--3">
-      <picture>
-        <source srcset="novartis--3.jpg 1x, novartis--3@2x.jpg 2x">
-        <img src="novartis--3.jpg" alt="Novartis Maps - Smart Goals" class="img--full border">
-      </picture>
-    </div>
-    <div class="grid__item grid__item--3">
-      <picture>
-        <source srcset="novartis--4.jpg 1x, novartis--4@2x.jpg 2x">
-        <img src="novartis--4.jpg" alt="Novartis Maps - Smart Goals Patient Flow" class="img--full border">
+        <source srcset="/images/projects/novartis/novartis--2.jpg 1x, /images/projects/novartis/novartis--2@2x.jpg 2x">
+        <img src="/images/projects/novartis/novartis--2.jpg" alt="Novartis Maps - Account" class="img--full border">
       </picture>
     </div>
   </div>
@@ -61,14 +45,30 @@ bodyclass: novartis
   <div class="grid">
     <div class="grid__item grid__item--3">
       <picture>
-        <source srcset="novartis--5.jpg 1x, novartis--5@2x.jpg 2x">
-        <img src="novartis--5.jpg" alt="Novartis Maps - Input" class="img--full border">
+        <source srcset="/images/projects/novartis/novartis--3.jpg 1x, /images/projects/novartis/novartis--3@2x.jpg 2x">
+        <img src="/images/projects/novartis/novartis--3.jpg" alt="Novartis Maps - Smart Goals" class="img--full border">
       </picture>
     </div>
     <div class="grid__item grid__item--3">
       <picture>
-        <source srcset="novartis--6.jpg 1x, novartis--6@2x.jpg 2x">
-        <img src="novartis--6.jpg" alt="Novartis Maps - Input" class="img--full border">
+        <source srcset="/images/projects/novartis/novartis--4.jpg 1x, /images/projects/novartis/novartis--4@2x.jpg 2x">
+        <img src="/images/projects/novartis/novartis--4.jpg" alt="Novartis Maps - Smart Goals Patient Flow" class="img--full border">
+      </picture>
+    </div>
+  </div>
+</div>
+<div class="case-study__img-full">
+  <div class="grid">
+    <div class="grid__item grid__item--3">
+      <picture>
+        <source srcset="/images/projects/novartis/novartis--5.jpg 1x, /images/projects/novartis/novartis--5@2x.jpg 2x">
+        <img src="/images/projects/novartis/novartis--5.jpg" alt="Novartis Maps - Input" class="img--full border">
+      </picture>
+    </div>
+    <div class="grid__item grid__item--3">
+      <picture>
+        <source srcset="/images/projects/novartis/novartis--6.jpg 1x, /images/projects/novartis/novartis--6@2x.jpg 2x">
+        <img src="/images/projects/novartis/novartis--6.jpg" alt="Novartis Maps - Input" class="img--full border">
       </picture>
     </div>
   </div>

@@ -16,24 +16,24 @@ bodyclass: work-it-off
     <div class="grid__item grid__item--2">
       <div class="device-iphone">
         <picture>
-          <source srcset="work-it-off_01-search.jpg 1x, work-it-off_01-search@2x.jpg 2x">
-          <img src="work-it-off_01-search.jpg" alt="Work it Off - Search" class="img--full">
+          <source srcset="/images/projects/work-it-off/work-it-off_01-search.jpg 1x, /images/projects/work-it-off/work-it-off_01-search@2x.jpg 2x">
+          <img src="/images/projects/work-it-off/work-it-off_01-search.jpg" alt="Work it Off - Search" class="img--full">
         </picture>
        </div>
     </div>
     <div class="grid__item grid__item--2">
       <div class="device-iphone">
         <picture>
-          <source srcset="work-it-off_02-calories.jpg 1x, work-it-off_02-calories@2x.jpg 2x">
-          <img src="work-it-off_02-calories.jpg" alt="Work it Off - Calories" class="img--full">
+          <source srcset="/images/projects/work-it-off/work-it-off_02-calories.jpg 1x, /images/projects/work-it-off/work-it-off_02-calories@2x.jpg 2x">
+          <img src="/images/projects/work-it-off/work-it-off_02-calories.jpg" alt="Work it Off - Calories" class="img--full">
         </picture>
        </div>
     </div>
     <div class="grid__item grid__item--2">
       <div class="device-iphone">
         <picture>
-          <source srcset="work-it-off_03-serving.jpg 1x, work-it-off_03-serving@2x.jpg 2x">
-          <img src="work-it-off_03-serving.jpg" alt="Work it Off - Servings" class="img--full">
+          <source srcset="/images/projects/work-it-off/work-it-off_03-serving.jpg 1x, /images/projects/work-it-off/work-it-off_03-serving@2x.jpg 2x">
+          <img src="/images/projects/work-it-off/work-it-off_03-serving.jpg" alt="Work it Off - Servings" class="img--full">
         </picture>
        </div>
     </div>
@@ -45,16 +45,16 @@ bodyclass: work-it-off
     <div class="grid__item grid__item--2 grid__item--offset-1">
       <div class="device-iphone">
         <picture>
-          <source srcset="work-it-off_04-run.jpg 1x, work-it-off_04-run@2x.jpg 2x">
-          <img src="work-it-off_04-run.jpg" alt="Work it Off - Run" class="img--full">
+          <source srcset="/images/projects/work-it-off/work-it-off_04-run.jpg 1x, /images/projects/work-it-off/work-it-off_04-run@2x.jpg 2x">
+          <img src="/images/projects/work-it-off/work-it-off_04-run.jpg" alt="Work it Off - Run" class="img--full">
         </picture>
        </div>
     </div>
     <div class="grid__item grid__item--2">
       <div class="device-iphone">
         <picture>
-          <source srcset="work-it-off_05-burpee.jpg 1x, work-it-off_05-burpee@2x.jpg 2x">
-          <img src="work-it-off_05-burpee.jpg" alt="Work it Off - Burpee" class="img--full">
+          <source srcset="/images/projects/work-it-off/work-it-off_05-burpee.jpg 1x, /images/projects/work-it-off/work-it-off_05-burpee@2x.jpg 2x">
+          <img src="/images/projects/work-it-off/work-it-off_05-burpee.jpg" alt="Work it Off - Burpee" class="img--full">
         </picture>
        </div>
     </div>

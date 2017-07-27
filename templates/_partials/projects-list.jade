@@ -17,9 +17,9 @@ section.main__content
                   title Arrow right icon
                   use(xlink:href='#icon--arrow-right')
             picture
-              source(srcset=article.url + article.metadata.bodyclass + '--thumb.jpg 1x, ' + article.url + article.metadata.bodyclass + '--thumb@2x.jpg 2x', media='(min-width: 840px)')
-              source(srcset=article.url + article.metadata.bodyclass + '--thumb-sm.jpg 1x, ' + article.url + article.metadata.bodyclass + '--thumb-sm@2x.jpg 2x')
-              img.project__image(srcset=article.url + article.metadata.bodyclass + '--thumb.jpg', alt=article.title)
+              source(srcset='/images' + article.url + article.metadata.bodyclass + '--thumb.jpg 1x, ' + '/images' + article.url + article.metadata.bodyclass + '--thumb@2x.jpg 2x', media='(min-width: 840px)')
+              source(srcset='/images' + article.url + article.metadata.bodyclass + '--thumb-sm.jpg 1x, ' + '/images' + article.url + article.metadata.bodyclass + '--thumb-sm@2x.jpg 2x')
+              img.project__image(srcset='/images' + article.url + article.metadata.bodyclass + '--thumb.jpg', alt=article.title)
                 
 section.main__content
   h2 Other Projects
@@ -37,6 +37,6 @@ section.main__content
                   title Arrow right icon
                   use(xlink:href='#icon--arrow-right')
             picture
-              source(srcset=article.url + article.metadata.bodyclass + '--thumb.jpg 1x, ' + article.url + article.metadata.bodyclass + '--thumb@2x.jpg 2x', media='(min-width: 840px)')
-              source(srcset=article.url + article.metadata.bodyclass + '--thumb-sm.jpg 1x, ' + article.url + article.metadata.bodyclass + '--thumb-sm@2x.jpg 2x')
-              img.project__image(srcset=article.url + article.metadata.bodyclass + '--thumb.jpg', alt=article.title)
+              source(srcset='/images' + article.url + article.metadata.bodyclass + '--thumb.jpg 1x, ' + '/images' + article.url + article.metadata.bodyclass + '--thumb@2x.jpg 2x', media='(min-width: 840px)')
+              source(srcset='/images' + article.url + article.metadata.bodyclass + '--thumb-sm.jpg 1x, ' + '/images' + article.url + article.metadata.bodyclass + '--thumb-sm@2x.jpg 2x')
+              img.project__image(srcset='/images' + article.url + article.metadata.bodyclass + '--thumb.jpg', alt=article.title)

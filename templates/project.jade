@@ -12,9 +12,9 @@ block header
       h1= page.title
       h4= page.metadata.subtitle
     picture
-      source(srcset=page.metadata.bodyclass + '--banner.jpg 1x, ' + page.metadata.bodyclass + '--banner@2x.jpg 2x', media='(min-width: 840px)')
-      source(srcset=page.metadata.bodyclass + '--banner-sm.jpg 1x, ' + page.metadata.bodyclass + '--banner-sm@2x.jpg 2x')
-      img.case-study__banner(srcset=page.metadata.bodyclass + '--banner.jpg', alt=page.title)
+      source(srcset='/images' + page.url + page.metadata.bodyclass + '--banner.jpg 1x, ' + '/images' + page.url + page.metadata.bodyclass + '--banner@2x.jpg 2x', media='(min-width: 840px)')
+      source(srcset='/images' + page.url + page.metadata.bodyclass + '--banner-sm.jpg 1x, ' + '/images' + page.url + page.metadata.bodyclass + '--banner-sm@2x.jpg 2x')
+      img.case-study__banner(srcset='/images' + page.url + page.metadata.bodyclass + '--banner.jpg', alt=page.title)
 
 block content
   .grid.case-study__content

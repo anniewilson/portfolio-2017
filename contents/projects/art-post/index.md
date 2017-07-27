@@ -19,8 +19,8 @@ The Inner West’s Art Post department holds a number of annual events which see
 This Little Duck was approached by the Inner West Council about creating a mobile-first digital program for Art Post. They wanted a way to provide users with timely updates on the day of the event, such as time, venue changes, etc.
 
 <picture>
-  <source srcset="art-post--pdf.jpg 1x, art-post--pdf@2x.jpg 2x">
-  <img src="art-post--pdf.jpg" alt="Art Post - PDF Guides" class="case-study__img-inline">
+  <source srcset="/images/projects/art-post/art-post--pdf.jpg 1x, /images/projects/art-post/art-post--pdf@2x.jpg 2x">
+  <img src="/images/projects/art-post/art-post--pdf.jpg" alt="Art Post - PDF Guides" class="case-study__img-inline">
 </picture>
 
 ## Design
@@ -32,24 +32,24 @@ After an audit of the PDF programs Art Post typically provides, we prioritized t
     <div class="grid__item grid__item--2">
       <div class="device-iphone">
         <picture>
-          <source srcset="art-post--mobile-1.jpg 1x, art-post--mobile-1@2x.jpg 2x">
-          <img src="art-post--mobile-1.jpg" alt="Art Post - Map" class="img--full">
+          <source srcset="/images/projects/art-post/art-post--mobile-1.jpg 1x, /images/projects/art-post/art-post--mobile-1@2x.jpg 2x">
+          <img src="/images/projects/art-post/art-post--mobile-1.jpg" alt="Art Post - Map" class="img--full">
         </picture>
        </div>
     </div>
     <div class="grid__item grid__item--2">
       <div class="device-iphone">
         <picture>
-          <source srcset="art-post--mobile-2.jpg 1x, art-post--mobile-2@2x.jpg 2x">
-          <img src="art-post--mobile-2.jpg" alt="Art Post - Map legend open" class="img--full">
+          <source srcset="/images/projects/art-post/art-post--mobile-2.jpg 1x, /images/projects/art-post/art-post--mobile-2@2x.jpg 2x">
+          <img src="/images/projects/art-post/art-post--mobile-2.jpg" alt="Art Post - Map legend open" class="img--full">
         </picture>
        </div>
     </div>
     <div class="grid__item grid__item--2">
       <div class="device-iphone">
         <picture>
-          <source srcset="art-post--mobile-3.jpg 1x, art-post--mobile-3@2x.jpg 2x">
-          <img src="art-post--mobile-3.jpg" alt="Art Post - Map pin selected" class="img--full">
+          <source srcset="/images/projects/art-post/art-post--mobile-3.jpg 1x, /images/projects/art-post/art-post--mobile-3@2x.jpg 2x">
+          <img src="/images/projects/art-post/art-post--mobile-3.jpg" alt="Art Post - Map pin selected" class="img--full">
         </picture>
        </div>
     </div>
@@ -60,13 +60,19 @@ For the digital program, I designed the experience around the concept of an inte
 
 In our audit, we discovered that there were typically around 40-60 venues for a particular event, each needing a pin on the map. With this in mind, I designed the user interface around keeping the map pins in context of the user’s place on the map. When the user tapped a pin, they wouldn’t feel like they were being taken to an entirely new page—instead, they could continue to interact with the other pins on the map.
 
+<div class="case-study__img-small">
+  <div class="device-iphone">
+    <img src="/images/projects/art-post/art-post--gif.gif" alt="Art Post - Screen interaction animation" class="border">
+  </div>
+</div>
+
 Although our emphasis was on a mobile-first experience, the app would be responsive - so we needed to ensure it would look great and work smoothly across a variety of screen sizes. So I designed the user interface around two screen configurations.
 
 On small screens, the user has the option of hiding the overlay displaying the legend and pin detail. This maximises the space for the map area. I placed most primary interactions at the bottom of the screen, so thumbs don’t have to reach too far to navigate. The about section is hidden in it’s own tab.
 
 <picture>
-  <source srcset="art-post--desktop.jpg 1x, art-post--desktop@2x.jpg 2x">
-  <img src="art-post--desktop.jpg" alt="Art Post - Large screens" class="case-study__img-full device-desktop">
+  <source srcset="/images/projects/art-post/art-post--desktop.jpg 1x, /images/projects/art-post/art-post--desktop@2x.jpg 2x">
+  <img src="/images/projects/art-post/art-post--desktop.jpg" alt="Art Post - Large screens" class="case-study__img-full device-desktop">
 </picture>
 
 For larger screens, I took advantage of the extra screen real estate and to keep the overlay detail visible at all times.
@@ -74,8 +80,8 @@ For larger screens, I took advantage of the extra screen real estate and to keep
 As the maps would be adapted for multiple campaigns, the visual design needed to be fairly neutral. I incorporated elements of the Inner West council’s print material, such as the font Museo Sans and use of white space. I also designed the option to change the pin colour depending on the campaign - although this feature didn’t make it into the final product.
 
 <picture>
-  <source srcset="art-post--patternlab.jpg 1x, art-post--patternlab@2x.jpg 2x">
-  <img src="art-post--patternlab.jpg" alt="Art Post - Patternlab" class="case-study__img-inline border">
+  <source srcset="/images/projects/art-post/art-post--patternlab.jpg 1x, /images/projects/art-post/art-post--patternlab@2x.jpg 2x">
+  <img src="/images/projects/art-post/art-post--patternlab.jpg" alt="Art Post - Patternlab" class="case-study__img-inline border">
 </picture>
 
 

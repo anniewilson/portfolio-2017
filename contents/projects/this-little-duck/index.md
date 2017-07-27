@@ -17,8 +17,8 @@ As part of my work with This Little Duck over the past two years, I led the comp
 The first step I took was to run a brand workshop with my colleagues, to facilitate a conversation about where we were going as a company, where our true value lay and what this meant for the visual identity. I extracted key ideas about our vision, mission and values from the workshop and used them to build a “Core Identity” which was more in line with who we were as a business.
 
 <picture>
-  <source srcset="this-little-duck--brand.jpg 1x, this-little-duck--brand@2x.jpg 2x" >
-  <img src="this-little-duck--brand.jpg" alt="This Little Duck - Logo" class="case-study__img-inline case-study__img-inline--border">
+  <source srcset="/images/projects/this-little-duck/this-little-duck--brand.jpg 1x, /images/projects/this-little-duck/this-little-duck--brand@2x.jpg 2x" >
+  <img src="/images/projects/this-little-duck/this-little-duck--brand.jpg" alt="This Little Duck - Logo" class="case-study__img-inline case-study__img-inline--border">
 </picture>
 
 Afterwards, I published some posts detailing the process:
@@ -26,7 +26,7 @@ Afterwards, I published some posts detailing the process:
 <div>
   <a href="https://thislittleduck.com/blog/rebuilding-a-brand-the-brand-workshop/" class="article-link" target="_blank">
     <div class="article-link__thumb">
-      <img src="article-tile--branding-1.jpg" alt="This Little Duck - Branding workshop worksheets">
+      <img src="/images/projects/this-little-duck/article-tile--branding-1.jpg" alt="This Little Duck - Branding workshop worksheets">
     </div>
     <div class="article-link__content">
       <h3>Rebuilding a Brand: the Brand Workshop  </h3>
@@ -44,7 +44,7 @@ Afterwards, I published some posts detailing the process:
 <div>
   <a href="https://thislittleduck.com/blog/rebuilding-a-brand-core-identity/" class="article-link" target="_blank">
     <div class="article-link__thumb">
-      <img src="article-tile--branding-2.jpg" alt="This Little Duck - Logo exploration">
+      <img src="/images/projects/this-little-duck/article-tile--branding-2.jpg" alt="This Little Duck - Logo exploration">
     </div>
     <div class="article-link__content">
       <h3>Rebuilding a brand: from Workshop to Core Identity</h3>
@@ -66,8 +66,8 @@ One of the biggest challenges I’ve faced when designing a web presence for a c
 I worked closely with our director to develop the concept for the homepage. We decided to base the website around a simple idea, a message to clients and potential clients—“The web isn't just your website”. We encourage our customers to fully leverage the magic of the internet where it will provide value to their product.
 
 <picture>
-  <source srcset="this-little-duck--home.jpg 1x, this-little-duck--home@2x.jpg 2x" >
-  <img src="this-little-duck--home.jpg" alt="This Little Duck - Home" class="case-study__img-full device-desktop">
+  <source srcset="/images/projects/this-little-duck/this-little-duck--home.jpg 1x, /images/projects/this-little-duck/this-little-duck--home@2x.jpg 2x" >
+  <img src="/images/projects/this-little-duck/this-little-duck--home.jpg" alt="This Little Duck - Home" class="case-study__img-full device-desktop">
 </picture>
 
 ## The Design
@@ -80,20 +80,20 @@ After design, I developed responsive templates (HTML & CSS) and a <a href="http:
   <div class="grid grid--sm">
     <div class="grid__item grid__item--2">
       <picture>
-        <source srcset="this-little-duck--case-study-1.jpg 1x, this-little-duck--case-study-1@2x.jpg 2x">
-        <img src="this-little-duck--case-study-1.jpg" alt="This Little Duck - Case Study UNSW Accomm" class="img--full device-desktop device-desktop--sm">
+        <source srcset="/images/projects/this-little-duck/this-little-duck--case-study-1.jpg 1x, /images/projects/this-little-duck/this-little-duck--case-study-1@2x.jpg 2x">
+        <img src="/images/projects/this-little-duck/this-little-duck--case-study-1.jpg" alt="This Little Duck - Case Study UNSW Accomm" class="img--full device-desktop device-desktop--sm">
       </picture>
     </div>
     <div class="grid__item grid__item--2">
       <picture>
-        <source srcset="this-little-duck--case-study-2.jpg 1x, this-little-duck--case-study-2@2x.jpg 2x">
-        <img src="this-little-duck--case-study-2.jpg" alt="This Little Duck - Case Study WSAA" class="img--full device-desktop device-desktop--sm">
+        <source srcset="/images/projects/this-little-duck/this-little-duck--case-study-2.jpg 1x, /images/projects/this-little-duck/this-little-duck--case-study-2@2x.jpg 2x">
+        <img src="/images/projects/this-little-duck/this-little-duck--case-study-2.jpg" alt="This Little Duck - Case Study WSAA" class="img--full device-desktop device-desktop--sm">
       </picture>
     </div>
     <div class="grid__item grid__item--2">
       <picture>
-        <source srcset="this-little-duck--case-study-3.jpg 1x, this-little-duck--case-study-3@2x.jpg 2x">
-        <img src="this-little-duck--case-study-3.jpg" alt="This Little Duck - Case Study Art Post" class="img--full device-desktop device-desktop--sm">
+        <source srcset="/images/projects/this-little-duck/this-little-duck--case-study-3.jpg 1x, /images/projects/this-little-duck/this-little-duck--case-study-3@2x.jpg 2x">
+        <img src="/images/projects/this-little-duck/this-little-duck--case-study-3.jpg" alt="This Little Duck - Case Study Art Post" class="img--full device-desktop device-desktop--sm">
       </picture>
     </div>
   </div>
@@ -108,8 +108,8 @@ For the case study header, I took part of the wave element from the logo and ble
 The wave became a recurring element throughout the design of the site. I used this as a visual divider with a subtle grey tone to sit behind sections of content.
 
 <picture>
-  <source srcset="this-little-duck--illustration.jpg 1x, this-little-duck--illustration@2x.jpg 2x" >
-  <img src="this-little-duck--illustration.jpg" alt="This Little Duck - Illustration" class="case-study__img-full">
+  <source srcset="/images/projects/this-little-duck/this-little-duck--illustration.jpg 1x, /images/projects/this-little-duck/this-little-duck--illustration@2x.jpg 2x" >
+  <img src="/images/projects/this-little-duck/this-little-duck--illustration.jpg" alt="This Little Duck - Illustration" class="case-study__img-full">
 </picture>
 
 ## Illustration
@@ -125,7 +125,7 @@ I used Adobe Animation CC and Snap.svg Animator to create the animation. I wrote
 <div>
   <a href="https://thislittleduck.com/blog/svg-animation-using-snap-svg/" class="article-link" target="_blank">
     <div class="article-link__thumb">
-      <img src="article-tile--svg.jpg" alt="This Little Duck - SVG animation using Flash">
+      <img src="/images/projects/this-little-duck/article-tile--svg.jpg" alt="This Little Duck - SVG animation using Flash">
     </div>
     <div class="article-link__content">
       <h3>Creating a vector animation for the web in a post-Flash world</h3>

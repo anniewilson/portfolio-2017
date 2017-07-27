@@ -21,7 +21,7 @@ As I was drifting off to sleep at night, the trigonometry came to me and I had t
 <div class="case-study__img-full">
   <div class="video-wrapper">
     <video controls>
-      <source src="xo-digital.mp4" type="video/mp4">
+      <source src="/images/projects/xo-digital/xo-digital.mp4" type="video/mp4">
     </video>
   </div>
 </div>
