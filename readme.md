@@ -1,5 +1,7 @@
 # Annie Wilson - Portfolio site
 
+Portfolio site by Annie Wilson.
+
 ## Requirements
  
 - [Node.js](https://nodejs.org/en/)

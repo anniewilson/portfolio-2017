@@ -1,0 +1,30 @@
+block append vars
+  - articles = env.helpers.getArticles(contents);
+
+each article, num in articles
+
+  if page.url == article.url
+    - var pageIndex = num
+
+    ul.project-pagination
+      each article, num in articles
+        
+        if num == pageIndex - 1
+          li.project-pagination__previous
+            p Previous project
+            h3.project-pagination__title
+              a(href=article.url)
+                svg.icon.icon--arrow-left(role='img', aria-labelledby='title')
+                  title Arrow left icon
+                  use(xlink:href='#icon--arrow-left')
+                | 
+                = article.title
+
+        if num == pageIndex + 1
+          li.project-pagination__next
+            p Next project
+            h3.project-pagination__title
+              a(href=article.url)= article.title
+                svg.icon.icon--arrow-right(role='img', aria-labelledby='title')
+                  title Arrow right icon
+                  use(xlink:href='#icon--arrow-right')

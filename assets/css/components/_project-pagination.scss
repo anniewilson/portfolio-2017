@@ -1,0 +1,41 @@
+// =============================================================================
+// PROJECT PAGINATION COMPONENT
+// =============================================================================
+
+.project-pagination {
+  @extend %clearfix;
+
+  border-top: 1px solid $border-color--standard;
+
+
+// Hide svg icons for small screens
+// -----------------------------------------------------------------------------
+  svg {
+    @media (max-width: $breakpoint--sm - 1) {
+      display: none;
+    }
+  }
+
+// Next project link
+// -----------------------------------------------------------------------------
+  &__next {
+    @media (min-width: $breakpoint--sm) {
+      float: right;
+      text-align: right;
+    }
+  }
+
+// Previous project link
+// -----------------------------------------------------------------------------
+  &__previous {
+    @media (min-width: $breakpoint--sm) {
+      float: left;
+    }
+  }
+
+// Project link title
+// -----------------------------------------------------------------------------
+  &__title {
+    margin-top: 0;
+  }
+}

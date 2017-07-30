@@ -7,12 +7,8 @@ block prepend title
   | #{ page.title + ' - '}
 
 block header
-  header.about__header
-    div.grid
-      div.grid__item.grid__item--2
-        h1.about__title= page.title
+  header.main__header
+    h1= page.title
 
 block content
-
-  section.main__content
-    include _partials/projects-list
+  include _partials/projects-list

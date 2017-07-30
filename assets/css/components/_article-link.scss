@@ -21,12 +21,6 @@
     margin-right: 24px;
     width: 80px;
 
-    @media (min-width: $breakpoint--xs) {
-      flex: 0 0 120px;
-      height: 120px;
-      width: 120px;
-    }
-
     @media (min-width: $breakpoint--sm) {
       flex: 0 0 180px;
       height: 180px;

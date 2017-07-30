@@ -12,9 +12,10 @@
   stroke: $text-color--standard;
   stroke-width: 1px;
 
-// Arrow right icon
+// Arrow right and left icon
 // -----------------------------------------------------------------------------
-  &--arrow-right {
+  &--arrow-right,
+  &--arrow-left {
     height: 8px;
   }
 
