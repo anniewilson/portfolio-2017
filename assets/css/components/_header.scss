@@ -15,20 +15,17 @@
     height: 100px;
     justify-content: space-between;
   }
-
-  @media (min-width: $breakpoint--md) {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: $z-index--header;
-  }
-
+  
 // Header home link
 // -----------------------------------------------------------------------------
   &__home-link {
     @media (min-width: $breakpoint--sm) {
       flex: 0 0 200px;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      position: fixed;
+      z-index: $z-index--header;
     }
   }
 
@@ -44,6 +41,13 @@
       padding-top: 0;
 
       text-align: right;
+    }
+
+    @media (min-width: $breakpoint--md) {
+      position: fixed;
+      top: $margin-standard--md;
+      right: $margin-standard--md;
+      z-index: $z-index--header;
     }
   }
 }

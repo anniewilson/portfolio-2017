@@ -41,7 +41,7 @@ The concept was simple. Create an equation, crack the formula behind creating a 
 
 The initial prototype was an exercise in how quickly we could get something up. The first version was a simple step-by-step guide where the user can add items to their ‘Salad List’ from the six categories with guided instructions. I designed the user experience and then translated it into static html builds, while the rest of the team worked on creating content and developing the app in Ember.js.
 
-You can check out the prototype [here](http://saladmath.com/).
+You can check out the prototype <a href="http://saladmath.com/" target="_blank">here</a>.
 
 <figure class="case-study__img-full">
   <picture>
