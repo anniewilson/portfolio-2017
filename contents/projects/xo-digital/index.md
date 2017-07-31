@@ -5,7 +5,7 @@ subtitle: "Web presence for a digital agency"
 role: "User experience and interface design, front-end development"
 employer: "XO Digital"
 link: http://www.xodigital.com.au/
-date: 2015-01
+date: 2014-01
 template: project.jade
 bodyclass: xo-digital
 ---

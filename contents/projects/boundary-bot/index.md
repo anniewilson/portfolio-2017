@@ -5,7 +5,7 @@ subtitle: "Powering the next generation of location-aware applications."
 role: "Branding, illustration and visual design"
 employer: "This Little Duck"
 link: https://boundarybot.com/
-date: 2015-03
+date: 2015-02
 template: project.jade
 bodyclass: boundary-bot
 ---

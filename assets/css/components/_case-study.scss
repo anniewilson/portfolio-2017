@@ -76,6 +76,15 @@
     background: #fff;
   }
 
+// Case study body
+// -----------------------------------------------------------------------------
+  &__body {
+    @media (max-width: $breakpoint--md - 1) {
+      margin-top: -16px !important;
+      padding-top: 0 !important;
+    }
+  }
+
 // Case study banner
 // -----------------------------------------------------------------------------
   &__banner {

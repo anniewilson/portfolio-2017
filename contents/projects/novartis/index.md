@@ -19,7 +19,6 @@ bodyclass: novartis
 <p>In some instances there were 5 ‘levels’ of questions that needed to be completed, so it was important for the rep to be aware of which level they were in and to understand the functions of the various types of buttons. In addition to breadcrumbs, I created a colour system to be used consistently across the app—the populated colour of bubbles would become darker as you moved through the levels.</p>
 
 
-
 <picture>
   <source srcset="/images/projects/novartis/novartis--color-map.jpg 1x, /images/projects/novartis/novartis--color-map@2x.jpg 2x" >
   <img src="/images/projects/novartis/novartis--color-map.jpg" alt="Novartis Maps - Colour map" class="case-study__img-full case-study__img-inline--border">
