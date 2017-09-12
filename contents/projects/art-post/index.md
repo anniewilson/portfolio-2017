@@ -18,10 +18,33 @@ The Inner West’s Art Post department holds a number of annual events which see
 
 This Little Duck was approached by the Inner West Council about creating a mobile-first digital program for Art Post. They wanted a way to provide users with timely updates on the day of the event, such as time, venue changes, etc.
 
-<picture>
-  <source srcset="/images/projects/art-post/art-post--pdf.jpg 1x, /images/projects/art-post/art-post--pdf@2x.jpg 2x">
-  <img src="/images/projects/art-post/art-post--pdf.jpg" alt="Art Post - PDF Guides" class="case-study__img-inline">
-</picture>
+<figure class="case-study__img-full">
+  <picture>
+    <source srcset="/images/projects/art-post/art-post--photos.jpg 1x, /images/projects/art-post/art-post--photos@2x.jpg 2x">
+    <img src="/images/projects/art-post/art-post--photos.jpg" alt="Art Post - Event Photos">
+  </picture>
+  <figcaption>
+    <svg role="img" aria-labelledby="title" class="icon icon--arrow-right-bent">
+      <title>Arrow right bent icon</title>
+      <use xlink:href="#icon--arrow-right-bent"></use>
+    </svg>
+    Photos from _Perfect Match_ festival
+  </figcaption>
+</figure>
+
+<figure class="case-study__img-full">
+  <picture>
+    <source srcset="/images/projects/art-post/art-post--printed-maps.jpg 1x, /images/projects/art-post/art-post--printed-maps@2x.jpg 2x">
+    <img src="/images/projects/art-post/art-post--printed-maps.jpg" alt="Art Post - Printed Maps" class="border">
+  </picture>
+  <figcaption>
+    <svg role="img" aria-labelledby="title" class="icon icon--arrow-right-bent">
+      <title>Arrow right bent icon</title>
+      <use xlink:href="#icon--arrow-right-bent"></use>
+    </svg>
+    Printed Maps
+  </figcaption>
+</figure>
 
 ## Design
 

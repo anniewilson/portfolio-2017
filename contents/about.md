@@ -4,9 +4,11 @@ date: 2017-07-19
 template: about.jade
 ---
 
-<p class="large">I’m an Australian designer in Sydney. I’m currently working at <a href="https://thislittleduck.com" target="_blank">This Little Duck</a>, where I lead the design direction on our projects. Some of our clients include UNSW, ABC, SBS, Garage Sale Trail and Inner West Council.</p>
+<p class="large">I’m an Australian designer, currently Senior Designer at <a href="https://thislittleduck.com" target="_blank">This Little Duck</a> in Sydney. I lead the design direction on our client work and internal projects.
 
-I’ve been in Sydney for over six years, where I’ve worked as a Designer for Mobile Product Design studios and Agencies large and small. My work includes anything from translating concepts into wireframes and prototypes, to defining a product’s visual identity, creating polished UI design mockups, or creating an online style guide. Bringing everything to life with production ready front-end development (HTML, CSS and basic JS), whether that be developing templates or building a pattern library of UI components.
+At This Little Duck I take ownership over our design process from start to finish—through concept development, prototyping, branding, visual design and front-end development. Some of our clients include UNSW, ABC, SBS, Garage Sale Trail and Inner West Council.
+
+I’ve been in Sydney for over six years, where I’ve designed for mobile product studios, agencies and startups. My work includes anything from translating concepts into wireframes and prototypes, to defining a product’s visual identity, creating polished UI design mockups, or creating an online style guide. Bringing everything to life with production ready front-end development (HTML, CSS and basic JS), whether that be developing templates or building a pattern library of UI components.
 
 To me, design means going beyond the visual. Design means shaping a product experience from start to finish, iteration by iteration. Being an advocate for the user. Connecting the dots between what a client wants and what problems they are trying to solve. Bringing order from chaos and getting my hands dirty in the details.
 
