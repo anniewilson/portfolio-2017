@@ -19,5 +19,4 @@ When I have time to myself, I like to grow chilis and figure out what to do with
 ## What I've been up to recently…
 
 * Dabbling in a bit of 3d Modeling after being awestruck by <a href="https://www.monumentvalleygame.com/" target="_blank">Monument Valley</a> 🙌
-* Flexing my design strategy muscle at <a href="https://www.eventbrite.com.au/e/climbing-strategy-mountain-mindset-and-tools-to-amplify-your-value-tickets-33446973799#" target="_blank">Climbing Strategy Mountain workshop</a>
-* Looking for that New (*York*) opportunity
+* Over the past 6 weeks my husband and I moved out of our apartment in Sunny Sydney, reduced our combined belongings to 60kg of luggage and moved to London!

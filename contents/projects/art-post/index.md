@@ -5,7 +5,7 @@ subtitle: "A online event program platform and progressive web app"
 role: "UX & UI Design, Front-end Development"
 client: "Inner West Council"
 employer: "This Little Duck"
-link: https://artpost.innerwest.nsw.gov.au/maps/
+link: https://artpost.innerwest.nsw.gov.au/maps/perfectmatch-2017
 date: 2017-04
 template: project.jade
 bodyclass: art-post
