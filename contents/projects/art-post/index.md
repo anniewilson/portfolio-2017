@@ -1,7 +1,7 @@
 ---
 title: "Art Post"
 casestudy: true
-subtitle: "A online event program platform and progressive web app"
+subtitle: "Online event program platform and progressive web app"
 role: "UX & UI Design, Front-end Development"
 client: "Inner West Council"
 employer: "This Little Duck"

@@ -1,7 +1,7 @@
 ---
 title: "Salad Math"
 casestudy: true
-subtitle: "An interactive salad building tool in the form of a responsive Ember.js web app"
+subtitle: "Interactive salad building tool in the form of a responsive Ember.js web app"
 role: "Concept Development, UX & UI Design, Illustration, Front-end Development"
 employer: "This Little Duck"
 date: 2017-07
@@ -9,8 +9,7 @@ template: project.jade
 bodyclass: salad-math
 ---
 
-<p class="large">Salad Math is a quick experimental project we created at <a href="https://thislittleduck.com" target="_blank">This Little Duck</a> after we had wrapped up all of our client work for the year.
-</p>
+<p class="large">Salad Math is a quick experimental project we created at <a href="https://thislittleduck.com" target="_blank">This Little Duck</a> after we had wrapped up all of our client work for the year.</p>
 
 With two salad enthusiasts in the office, the idea for a salad calculator was born.
 

@@ -1,7 +1,7 @@
 ---
 title: "UNSW Accommodation"
 olderwork: true
-subtitle: "An accommodation portal for students at UNSW"
+subtitle: "Accommodation portal for students at UNSW"
 role: "User experience and interface design, front-end development"
 employer: "This Little Duck"
 link: https://www.accommodation.unsw.edu.au/
