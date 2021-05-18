@@ -4,19 +4,118 @@ block append vars
   - bodyclass = 'home'
 
 block header
-  header.main__header
-    .grid
-      .grid__item.grid__item--4
-        h1 Hey, I’m
-          br
-          | Annie&nbsp;Wilson.
-        p I'm a Product Designer with over nine years experience designing beautiful product experiences—leading products through user research, concept development, prototyping, branding, visual design and front-end development. I have a keen interest in emerging technologies and the role great design plays in everyday life.
+  header.about__header
+    div.grid
+      div.grid__item.grid__item--2
+        h1.about__title Product Designer &amp; Leader
+      div.grid__item.grid__item--4
+        picture
+          source(srcset='/images/annie-wilson__portrait.jpg 1x, ' + '/images/annie-wilson__portrait@2x.jpg 2x')
+          img.about__banner.img--full(srcset='/images/annie-wilson__portrait.jpg', alt='My face - Annie Wilson')
 
-        p
-          a(href='/about') Learn a bit more about me
-            svg.icon.icon--arrow-right(role='img', aria-labelledby='title')
-              title Arrow right icon
-              use(xlink:href='#icon--arrow-right')
+  //- Hidden projects ed
+  // header.main__header
+    // .grid
+    //   .grid__item.grid__item--4
+    //     h1 Hey, I’m
+    //       br
+    //       | Annie&nbsp;Wilson.
+    //     p I'm a Product Designer with over nine years experience designing beautiful product experiences—leading products through user research, concept development, prototyping, branding, visual design and front-end development. I have a keen interest in emerging technologies and the role great design plays in everyday life.
+
+    //     p
+    //       a(href='/about') Learn a bit more about me
+    //         svg.icon.icon--arrow-right(role='img', aria-labelledby='title')
+    //           title Arrow right icon
+    //           use(xlink:href='#icon--arrow-right')
+
+
+// block content
+  //- Hidden projects ed
+  // include _partials/projects-list
 
 block content
-  include _partials/projects-list
+  div.grid
+    div.grid__item.grid__item--4.grid__item--offset-2.main__content.content-area
+      p.large I'm a Product Designer, who has been creating delightful user experiences for 10+ years. Currently leading design and cultivating financial wellbeing at 
+        a(href="https://www.blackbullion.com/" target="_blank") Blackbullion
+        |  in London.
+
+      p I spend my working days leading UX design at Blackbullion though discovery, delivery and iteration.
+      p When I'm not at work, I'm likely doing a spot of balcony-gardening or attempting to make something useful at pottery but failing and gifting them to unsuspecting friends!
+
+  section.resume
+    header.resume__header
+      h5.resume__title Experience
+      div.resume__link
+        //a(href="/Annie-Wilson_Resume_2018.pdf" target="_blank") Download Resume
+          //svg.icon.icon--arrow-download(role='img', aria-labelledby='title')
+            //title Arrow download icon
+            //use(xlink:href='#icon--arrow-download')
+        //| &emsp;
+        a(href="https://www.linkedin.com/in/broccoli-wilson/" target="_blank") Linkedin
+          svg.icon.icon--arrow-right(role='img', aria-labelledby='title')
+            title Arrow right icon
+            use(xlink:href='#icon--arrow-right')
+    .grid
+      .grid__item.grid__item--4.grid__item--offset-2.content-area
+        .resume__item
+          h5.resume__date 2019–Present
+          h4.resume__title
+            strong Lead Designer
+          h4.resume__title Blackbullion
+        .resume__item
+          h5.resume__date 2018–2019
+          h4.resume__title
+            strong UI Designer
+          h4.resume__title Blackbullion
+        .resume__item
+          h5.resume__date 2015–2017
+          h4.resume__title
+            strong Senior Designer
+          h4.resume__title This Little Duck
+          // p Led design direction for inhouse products and for clients like UNSW, ABC, SBS, Ooh! Media and Inner West Council. Led company rebrand—new visual identity, new website. Saw designs through from concept to development. Created online pattern libraries for web apps and websites, and wrote lean, accessible, production ready markup and css.
+        .resume__item
+          h5.resume__date 2010–2017
+          h4.resume__title
+            strong Freelance Product Design
+         //  p Worked on freelance projects for clients. Design and front-end development for mobile apps and responsive websites, customised Squarespace sites and created visual identities for startups.
+        .resume__item
+          h5.resume__date 2013–2015
+          h4.resume__title
+            strong UX / UI Designer / Front-end Developer
+          h4.resume__title Enigma (formerly XO Digital)
+          // p Designed user interfaces for responsive websites and tools. Designed home loan calculators and interactive financial planning tools. Designed websites for nib, Eco Logical Australia, Downer Group and Kitchenaid.
+          // p Transformed designs into software with front-end development. Improved design output and bridging the gap between designer and developer. Conducted usability evaluations and analysed research to provide user experience recommendations.
+        .resume__item
+          h5.resume__date 2011–2013
+          h4.resume__title
+            strong Digital Product Designer
+          h4.resume__title Creative Licence Digital
+          // p Established creative direction for a range of digital products for clients and in-house products. Trained, mentored and oversaw work of junior designers. Designed products, apps and responsive websites for user interfaces across digital platforms for clients like Novartis, Roche, Monster Energy and Woven Image.
+          // p Led design of in-house iOS enterprise platform—Field inTouch—from concept and wireframing to creative direction, design of visual system of user interface elements and front-end development (HTML &amp; CSS), including a Mobile CRM Data Management system module for sales presentations.
+        .resume__item
+          h5.resume__date 2010
+          h4.resume__title
+            strong Waste Education Project Officer
+          h4.resume__title Charles Sturt University
+          // p Designed and implemented education campaign with CSU Green at Charles Sturt University about recycling, reducing waste and sustainability. Designed all educational material for campaign-interactive Flash based tutorial, posters, maps of recycling areas around campus and presentations.
+  section.resume
+    header.resume__header
+      h5.resume__title Education
+    .grid
+      .grid__item.grid__item--4.grid__item--offset-2.content-area
+        .resume__item
+          h5.resume__date 2007–2010
+          h4.resume__title
+            strong Charles Sturt University, Wagga Wagga
+          h4.resume__title Bachelor of Arts, Graphic Design
+        .resume__item
+          h5.resume__date 2010
+          h4.resume__title
+            strong Brobygrafiska, Sweden
+          h4.resume__title Graphic Design Exchange Program
+        .resume__item
+          h5.resume__date 2008
+          h4.resume__title
+            strong Oregon State University, United States
+          h4.resume__title Graphic Design Exchange Program
