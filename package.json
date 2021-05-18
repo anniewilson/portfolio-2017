@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "moment": "2.3.x",
+    "moment": "^2.29.1",
     "typogr": "0.5.x",
-    "underscore": "1.4.x",
+    "underscore": "^1.13.1",
     "wintersmith-livereload": "^1.0.0"
   },
   "private": "true",
@@ -19,9 +19,9 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-postcss": "^0.8.0",
+    "grunt-postcss": "^0.9.0",
     "grunt-sass": "^2.0.0",
-    "grunt-svgmin": "^4.0.0",
+    "grunt-svgmin": "^6.0.1",
     "grunt-svgstore": "^1.0.0",
     "load-grunt-tasks": "^3.5.2",
     "normalize.css": "^7.0.0",

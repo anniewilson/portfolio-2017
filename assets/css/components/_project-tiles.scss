@@ -24,17 +24,23 @@
     }
   }
 
-  &--case-studies &__item:nth-child(2) {
+  &--case-studies &__item:nth-child(2),
+  &--case-studies &__item:nth-child(4) {
     @media (min-width: $breakpoint--md) {
       flex: 1 0 (2/6 * 100%);
+    }
+  }
 
+  &--case-studies &__item:nth-child(4) {
+    @media (min-width: $breakpoint--md) {
       .project {
         border: 1px solid $border-color--standard;
       }
     }
   }
 
-  &--case-studies &__item:nth-child(3) {
+  &--case-studies &__item:nth-child(1),
+  &--case-studies &__item:nth-child(5) {
     @media (min-width: $breakpoint--md) {
       flex: 1 0 (4/6 * 100%);
     }

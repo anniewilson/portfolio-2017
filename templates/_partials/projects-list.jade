@@ -3,9 +3,26 @@ block append vars
 
 section.main__content
   h2 Case studies
-  p Overview of some of my recent work
+  //- p Overview of some of my recent work
 
   ul.project-tiles.project-tiles--case-studies
+    li.project-tiles__item
+      .project
+        div.project__content
+          h2.project__title(class='project__title--blackbullion') Blackbullion
+          h5 Case study coming soon
+        picture
+          source(srcset='/images/projects/blackbullion/blackbullion--thumb.jpg 1x, ' + '/images/projects/blackbullion/blackbullion--thumb@2x.jpg 2x', media='(min-width: 840px)')
+          source(srcset='/images/projects/blackbullion/blackbullion--thumb-sm.jpg 1x, ' + '/images/projects/blackbullion/blackbullion--thumb-sm@2x.jpg 2x')
+          img.project__image(srcset='/images/projects/blackbullion/blackbullion--thumb.jpg', alt="Blackbullion UI")
+    li.project-tiles__item
+      .project
+        div.project__content
+          h2.project__title(class='project__title--blackbullion-badges') Badges
+          h5 Case study coming soon
+        picture
+          source(srcset='/images/projects/blackbullion-badges/blackbullion-badges--thumb.jpg 1x, ' + '/images/projects/blackbullion-badges/blackbullion-badges--thumb@2x.jpg 2x', media='(min-width: 840px)')
+          img.project__image(srcset='/images/projects/blackbullion-badges/blackbullion-badges--thumb.jpg', alt="Blackbullion UI")
     each article in articles
       if article.metadata.casestudy == true
         li.project-tiles__item
@@ -22,8 +39,8 @@ section.main__content
               img.project__image(srcset='/images' + article.url + article.metadata.bodyclass + '--thumb.jpg', alt=article.title)
                 
 section.main__content
-  h2 Other projects
-  p Some of this is older work I'd like to revisit and give a bit of a refresh—I've included it as it shows my depth of experience.
+  h2 Older work
+  //- p Some of this is older work I'd like to revisit and give a bit of a refresh—I've included it as it shows my depth of experience.
 
   ul.project-tiles.project-tiles--grid
     each article in articles

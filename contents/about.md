@@ -4,19 +4,9 @@ date: 2017-07-19
 template: about.jade
 ---
 
-<p class="large">I’m an Australian designer, currently Senior Designer at <a href="https://thislittleduck.com" target="_blank">This Little Duck</a> in Sydney. I lead the design direction on our client work and internal projects.
 
-At This Little Duck I take ownership over our design process from start to finish—through concept development, prototyping, branding, visual design and front-end development. Some of our clients include UNSW, ABC, SBS, Garage Sale Trail and Inner West Council.
+<p class="large">I'm an Australian Product Designer, with over 9 years creating beautiful product experiences. Currently leading design and spreading financial literacy at <a href="https://www.blackbullion.com/" target="_blank">Blackbullion</a> in London.</p>
 
-I’ve been in Sydney for over six years, where I’ve designed for mobile product studios, agencies and startups. My work includes anything from translating concepts into wireframes and prototypes, to defining a product’s visual identity, creating polished UI design mockups, or creating an online style guide. Bringing everything to life with production ready front-end development (HTML, CSS and basic JS), whether that be developing templates or building a pattern library of UI components.
+I spend my working days fully embedded in our product design process, from user research, through concept development, prototyping, UX/UI, branding and visual design. Additionally I provide art direction across our marketing and content team, refreshing our brand and overseeing our junior design team.
 
-To me, design means going beyond the visual. Design means shaping a product experience from start to finish, iteration by iteration. Being an advocate for the user. Connecting the dots between what a client wants and what problems they are trying to solve. Bringing order from chaos and getting my hands dirty in the details.
-
-I’ve been designing my whole life. I was raised in a small farming town in Victoria, Australia, where I learned to work hard, to take life easy, to never lose patience, and above all to value authenticity.
-
-When I have time to myself, I like to grow chilis and figure out what to do with them, and I’ve been carrying my camera around the world.
-
-## What I've been up to recently…
-
-* Dabbling in a bit of 3d Modeling after being awestruck by <a href="https://www.monumentvalleygame.com/" target="_blank">Monument Valley</a> 🙌
-* Over the past 6 weeks my husband and I moved out of our apartment in Sunny Sydney, reduced our combined belongings to 60kg of luggage and moved to London!
+When I'm not at work, I'm likely doing a spot of balcony-gardening or attempting to make something beautiful at pottery but failing and giving them as gifts to unsuspecting friends.
