@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "typogr": "0.5.x",
     "underscore": "^1.13.1",
     "wintersmith-livereload": "^1.0.0"
